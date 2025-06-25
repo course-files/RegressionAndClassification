@@ -1,4 +1,4 @@
-PaymentDate,OrderNumber,CustomerType,CustomerName,BranchSubCounty,BranchCounty,ProductName,CategoryName,QuantityOrdered,CostOfProductionPerUnit,SellingPricePerUnit,ProfitPerUnit,PercentageProfitPerUnit
+PaymentDate,OrderNumber,CustomerType,CustomerName,BranchSubCounty,BranchCounty,ProductName,ProductCategoryName,QuantityOrdered,CostOfProductionPerUnit,SellingPricePerUnit,ProfitPerUnit,PercentageProfitPerUnit
 2021-01-10,2132,Business,[Business] Severin Retreat,Makadara,Nairobi,Matoke na Sukuma,Soup/Stew Dishes,2,30.00,70.00,40.00,133.33
 2021-01-10,2132,Business,[Business] Severin Retreat,Makadara,Nairobi,Vetkoek,Sweet Snacks/Desserts,4,20.00,50.00,30.00,150.00
 2021-01-10,2132,Business,[Business] Severin Retreat,Makadara,Nairobi,Nyama na Matoke,Meat-Based Dishes,1,100.00,200.00,100.00,100.00
