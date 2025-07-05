@@ -45,6 +45,10 @@
 │   ├── subscription_churn_new_data.csv
 │   └── subscription_churn_predicted_data.csv
 ├── main.py
+├── model
+│   ├── 1b_label_encoders.pkl
+│   ├── decisiontree_classifier_baseline.pkl
+│   └── decisiontree_regressor_optimum.pkl
 └── requirements.txt
 ```
 
