@@ -22,11 +22,13 @@ CORS(app, supports_credentials=True)
 
 # Load different models
 # It uses joblib to load a trained model, so this API serves ML predictions
-decision_tree_model = joblib.load('./model/decisiontree_classifier_baseline.pkl')
+decisiontree_classifier_baseline = joblib.load('./model/decisiontree_classifier_baseline.pkl')
+decisiontree_regressor_optimum = joblib.load('./model/decisiontree_regressor_optimum.pkl')
+label_encoders_1b = joblib.load('./model/label_encoders_1b.pkl')
 
 # Defines an HTTP endpoint
 @app.route('/predict_decision_tree_classifier', methods=['POST'])
-def predict_decision_tree():
+def predict_decision_tree_classifier():
     # Accepts JSON data sent by a client (browser, curl, Postman, etc.)
     data = request.get_json()
     # Create a DataFrame with the correct feature names
@@ -35,13 +37,22 @@ def predict_decision_tree():
         'customer_age': data.get('customer_age'),
         'support_calls': data.get('support_calls')
     }])
-    # Performs a prediction using a trained machine learning model)
-    prediction = decision_tree_model.predict(new_data)[0]
-    # Returns the result as a JSON response:
-    return jsonify({'prediction': int(prediction)})
 
-if __name__ == '__main__':
-    app.run(debug=True)
+    # Define the expected feature order (based on the order used during training)
+    expected_features = [
+        'monthly_fee',
+        'customer_age',
+        'support_calls'
+    ]
+
+    # Reorder and select only the expected columns
+    new_data = new_data[expected_features]
+
+    # Performs a prediction using a trained machine learning model
+    prediction = decisiontree_classifier_baseline.predict(new_data)[0]
+    # Returns the result as a JSON response:
+    return jsonify({'Predicted Class = ': int(prediction)})
+
 
 # *1* Sample JSON POST values
 # {
@@ -68,3 +79,89 @@ if __name__ == '__main__':
 #     -Method POST `
 #     -Body $body `
 #     -ContentType "application/json"
+
+@app.route('/predict_decision_tree_regressor', methods=['POST'])
+def predict_decision_tree_regressor():
+    data = request.get_json()
+    # Expected input keys:
+    # 'PaymentDate', 'CustomerType', 'BranchSubCounty',
+    # 'ProductCategoryName', 'QuantityOrdered', 'PercentageProfitPerUnit'
+
+    # Create DataFrame from input
+    new_data = pd.DataFrame([data])
+
+    # Convert PaymentDate to datetime
+    new_data['PaymentDate'] = pd.to_datetime(new_data['PaymentDate'])
+
+    # Identify all datetime columns
+    datetime_columns = new_data.select_dtypes(include=['datetime64']).columns
+
+    categorical_cols = new_data.select_dtypes(exclude=['int64', 'float64', 'datetime64[ns]']).columns
+
+    # Encode categorical columns
+    for col in categorical_cols:
+        if col in new_data:
+            new_data[col] = label_encoders_1b[col].transform(new_data[col])
+
+    # Feature engineering for date
+    new_data['PaymentDate_year'] = new_data['PaymentDate'].dt.year
+    new_data['PaymentDate_month'] = new_data['PaymentDate'].dt.month
+    new_data['PaymentDate_day'] = new_data['PaymentDate'].dt.day
+    new_data['PaymentDate_dayofweek'] = new_data['PaymentDate'].dt.dayofweek
+    new_data = new_data.drop(columns=datetime_columns)
+
+    # Define the expected feature order (based on the order used during training)
+    expected_features = [
+        'CustomerType',
+        'BranchSubCounty',
+        'ProductCategoryName',
+        'QuantityOrdered',
+        'PaymentDate_year',
+        'PaymentDate_month',
+        'PaymentDate_day',
+        'PaymentDate_dayofweek'
+    ]
+
+    # Reorder and select only the expected columns
+    new_data = new_data[expected_features]
+
+    # Predict
+    prediction = decisiontree_regressor_optimum.predict(new_data)[0]
+    return jsonify({'Predicted Percentage Profit per Unit = ': float(prediction)})
+
+# *1* Sample JSON POST values
+# {
+#     "CustomerType": "Business",
+#     "BranchSubCounty": "Kilimani",
+#     "ProductCategoryName": "Meat-Based Dishes",
+#     "QuantityOrdered": 8,
+#     "PaymentDate": "2025-07-11"
+# }
+
+# *2* Sample cURL POST values
+
+# curl -X POST http://127.0.0.1:5000/predict_decision_tree_regressor \
+#   -H "Content-Type: application/json" \
+#   -d "{\"CustomerType\": \"Business\",
+# 	\"BranchSubCounty\": \"Kilimani\",
+# 	\"ProductCategoryName\": \"Meat-Based Dishes\",
+# 	\"QuantityOrdered\": 8,
+# 	\"PaymentDate\": \"2025-07-11\"}"
+
+# *3* Sample PowerShell values:
+
+# $body = @{
+#     PaymentDate         = "2025-07-11"
+#     CustomerType        = "Business"
+#     BranchSubCounty     = "Kilimani"
+#     ProductCategoryName = "Meat-Based Dishes"
+#     QuantityOrdered     = 8
+# } | ConvertTo-Json
+#
+# Invoke-RestMethod -Uri http://127.0.0.1:5000/predict_decision_tree_regressor `
+#     -Method POST `
+#     -Body $body `
+#     -ContentType "application/json"
+
+if __name__ == '__main__':
+    app.run(debug=True)
