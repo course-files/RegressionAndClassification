@@ -38,6 +38,8 @@
 │   ├── online_shoppers_intention.csv
 │   ├── online_shoppers_intention_new_data.csv
 │   ├── online_shoppers_intention_predicted_data.csv
+│   ├── online_shoppers_intention_predicted_data_rf.csv
+│   ├── online_shoppers_intention_predicted_data_svc.csv
 │   ├── paper2_dataset.csv
 │   ├── siwaka_dishes_view_profit_per_product.csv
 │   ├── siwaka_dishes_view_profit_per_product_new_data.csv
@@ -55,12 +57,17 @@
 │   ├── knn_classifier_optimum.pkl
 │   ├── label_encoders_1b.pkl
 │   ├── label_encoders_2.pkl
+│   ├── label_encoders_4.pkl
+│   ├── label_encoders_5.pkl
 │   ├── naive_Bayes_classifier_optimum.pkl
 │   ├── onehot_encoder_3.pkl
-│   └── scaler_3.pkl
+│   ├── random_forest_classifier_optimum.pkl
+│   ├── scaler_4.pkl
+│   ├── scaler_5.pkl
+│   └── support_vector_classifier_optimum.pkl
 └── requirements.txt
 
-4 directories, 43 files
+4 directories, 50 files
 ```
 
 ## ⚙️ Project Setup Instructions
