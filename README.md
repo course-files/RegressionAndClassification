@@ -112,7 +112,7 @@
     - Once the virtual environment is active, run:
 
     ```shell
-    pip install -r requirements.txt`
+    pip install -r requirements.txt
     ```
 
     - `-r` tells **pip** to install all packages listed in the file.
