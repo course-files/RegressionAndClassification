@@ -24,7 +24,6 @@
 ├── README.md
 ├── RecommendedCitation.bib
 ├── api.py
-├── api_test.html
 ├── data
 │   ├── DataCoSupplyChainDataset.csv
 │   ├── DataCoSupplyChainDataset_description.csv
@@ -37,6 +36,8 @@
 │   ├── SuperStoreSales_predicted.csv
 │   ├── customer_data_with_clusters.csv
 │   ├── online_shoppers_intention.csv
+│   ├── online_shoppers_intention_new_data.csv
+│   ├── online_shoppers_intention_predicted_data.csv
 │   ├── paper2_dataset.csv
 │   ├── siwaka_dishes_view_profit_per_product.csv
 │   ├── siwaka_dishes_view_profit_per_product_new_data.csv
@@ -44,12 +45,22 @@
 │   ├── subscription_churn.csv
 │   ├── subscription_churn_new_data.csv
 │   └── subscription_churn_predicted_data.csv
+├── frontend_tests
+│   ├── api_test_DT_classifier.html
+│   └── api_test_DT_regressor.html
 ├── main.py
 ├── model
-│   ├── 1b_label_encoders.pkl
 │   ├── decisiontree_classifier_baseline.pkl
-│   └── decisiontree_regressor_optimum.pkl
+│   ├── decisiontree_regressor_optimum.pkl
+│   ├── knn_classifier_optimum.pkl
+│   ├── label_encoders_1b.pkl
+│   ├── label_encoders_2.pkl
+│   ├── naive_Bayes_classifier_optimum.pkl
+│   ├── onehot_encoder_3.pkl
+│   └── scaler_3.pkl
 └── requirements.txt
+
+4 directories, 43 files
 ```
 
 ## ⚙️ Project Setup Instructions
