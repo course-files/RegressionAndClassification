@@ -1,5 +1,5 @@
 # requirements/colab.txt
--r base.txt
+-r https://raw.githubusercontent.com/course-files/RegressionAndClassification/refs/heads/main/requirements/base.txt
 
 # Colab compatibility
 numpy<2.2
