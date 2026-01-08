@@ -24,6 +24,11 @@
 ├── README.md
 ├── RecommendedCitation.bib
 ├── api.py
+├── api_consumer.py
+├── assets
+│   └── images
+│       ├── activate_venv_pycharm.png
+│       └── activate_venv_vscode.png
 ├── data
 │   ├── DataCoSupplyChainDataset.csv
 │   ├── DataCoSupplyChainDataset_description.csv
@@ -41,6 +46,7 @@
 │   ├── online_shoppers_intention_predicted_data_rf.csv
 │   ├── online_shoppers_intention_predicted_data_svc.csv
 │   ├── paper2_dataset.csv
+│   ├── siwaka_dishes_orderstatus.csv
 │   ├── siwaka_dishes_view_profit_per_product.csv
 │   ├── siwaka_dishes_view_profit_per_product_new_data.csv
 │   ├── siwaka_dishes_view_profit_per_product_predicted_data.csv
@@ -50,6 +56,8 @@
 ├── frontend_tests
 │   ├── api_test_DT_classifier.html
 │   └── api_test_DT_regressor.html
+├── lab_submission
+│   └── CAT2_P2_StudentID_Name.ipynb
 ├── main.py
 ├── model
 │   ├── decisiontree_classifier_baseline.pkl
@@ -65,68 +73,26 @@
 │   ├── scaler_4.pkl
 │   ├── scaler_5.pkl
 │   └── support_vector_classifier_optimum.pkl
-└── requirements.txt
+├── requirements.txt
+└── setup_instructions.md
 
-4 directories, 50 files
+7 directories, 56 files
 ```
 
-## ⚙️ Project Setup Instructions
+## Setup Instructions
 
-### Install all the packages listed in `requirements.txt` in a virtual environment
+- [Setup Instructions](setup_instructions.md)
 
-1. Confirm that you have Python installed. You can check this by running:
+## Lab Manual
 
-    ```shell
-    python --version
-    ```
+Refer to the files below for more details:
 
-    or
+1. [0_a_helloKenya.py](0_a_helloKenya.py) and
+[0_b_helloKenya.ipynb](0_b_helloKenya.ipynb): to confirm that the required
+libraries to run a Jupyter notebook locally have been installed in your Python
+virtual environment.
+2. [1a_decision_tree.ipynb](1a_decision_tree.ipynb): A decision tree regressor.
 
-    ```shell
-    python3 --version
-    ```
+## Lab Submission Instructions
 
-    - If Python is not installed, download and install it from the official website: <https://www.python.org/downloads/>
-
-2. Create and activate a virtual environment to keep your project dependencies isolated from the system Python packages.
-
-   - In the root of your project folder, run:
-
-    ```shell
-    python -m venv .venv
-    ```
-
-   - To activate the virtual environment, use the following commands:
-       - For Windows (Git Bash):
-
-         ```shell
-         source .venv/Scripts/activate
-         ```
-
-       - For Windows (PowerShell):
-
-         ```shell
-         .venv\Scripts\Activate
-         ```
-
-       - For macOS/Linux:
-
-         ```shell
-         source .venv/bin/activate
-         ```
-
-3. Install the packages from **requirements.txt**
-    - Once the virtual environment is active, run:
-
-    ```shell
-    pip install -r requirements.txt
-    ```
-
-    - `-r` tells **pip** to install all packages listed in the file.
-    - **pip** will automatically find compatible versions (or raise an error if there is a conflict).
-
-4. You can confirm the installed packages using:
-
-   ```shell
-   pip list
-   ```
+- [Lab Submission Instructions](lab_submission_instructions.md)
