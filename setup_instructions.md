@@ -139,15 +139,33 @@ dependencies isolated from the system Python packages.
      - Choose the interpreter that points to your `.venv` folder.
      ![img.png](assets/images/activate_venv_vscode.png)
 
-4. Install the packages from **requirements.txt**
-    - Once the virtual environment is active, run:
+4. Install the required packages depending on the environment:
+    - [base.txt](requirements/base.txt): Defines the fundamental packages that the code in the repository needs to be installed for it to run. It is: Environment-agnostic, developer-curated, stable, and minimal.
+    - [dev.txt](requirements/dev.txt): Defines what a developer needs to work productively and safely. It can include linters, formatters, test frameworks, and interactive tools. It should not include platform-specific constraints or deployment-only dependencies.
+    - [colab.txt](requirements/colab.txt): It is platform-specific for Google Colab. It specifies the adjustments required when you are running the notebook in Colab, e.g., packages that are not included in Colab by default, and compatibility pins to avoid breaking Colab.
+    - [prod.txt](requirements/prod.txt): Defines what must be installed in a production environment. It includes runtime frameworks (TensorFlow).
+    - Governing Rule: If the application code imports it to run, it belongs in base.txt. If only a developer uses it to think, test, or explore, it belongs in dev.txt.
 
-    ```shell
-    pip install -r requirements.txt
-    ```
+    - Run one of the following depending on your environment once the virtual environment is active:
+  
+      - Development environment (local or Codespaces) with constraints to specific versions:
 
-    - `-r` tells **pip** to install all packages listed in the file.
-    - **pip** will automatically find compatible versions (or raise an error if there is a conflict).
+        ```shell
+        pip install -r requirements/dev.txt -c requirements/constraints.txt
+
+        ```
+
+      - Google Colab environment:
+
+        ```shell
+        %pip install -r requirements/colab.txt
+        ```
+
+      - Production environment:
+
+        ```shell
+        pip install -r requirements/prod.txt
+        ```
 
 5. You can confirm the installed packages using:
 
@@ -191,15 +209,17 @@ tree -I ".venv|__pycache__|roughwork|lab_submission_ANSWERS"
     pip install pipreqs
     ```
 
-- `pipreqs .` looks at your imports in the source code and generates a `requirements.txt` file that includes only those libraries.
+- `pipreqs .` looks at your imports in the source code and generates a list of basic requirements that it assumes are the most important.
 - Advantage:
   - It is useful for creating a minimal `requirements.txt` file that only includes the libraries that are actually used in the code.
 - Disadvantages:
-  - It does not include the version numbers of the libraries, so you may need to manually add them later.
-  - Disadvantage: It does not include the libraries that are installed in the virtual environment but not used in the code.
+  - Ignores transitive dependencies
+  - Ignores runtime-only imports
+  - Ignores optional and dynamic imports
+  - Does not guarantee reproducibility
 
 ```shell
-pipreqs . --encoding=utf8 --force --ignore .venv,__pycache__,roughwork
+pipreqs . --savepath ./requirements/dev.inferred.txt --encoding=utf8 --force --ignore .venv,__pycache__,roughwork
 ```
 
 **Option 2: Using `pip freeze`**
@@ -210,5 +230,5 @@ pipreqs . --encoding=utf8 --force --ignore .venv,__pycache__,roughwork
   - It captures all installed packages in the virtual environment, including their versions.
 
 ```shell
-pip freeze > ./requirements.txt
+pip freeze > ./requirements/dev.lock.txt
 ```
