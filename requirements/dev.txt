@@ -1,0 +1,10 @@
+# requirements/dev.txt
+-r base.txt
+
+pytest
+pytest-cov
+black
+flake8
+ipython
+jupyter
+seaborn

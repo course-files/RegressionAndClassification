@@ -1,0 +1,11 @@
+# requirements/colab.txt
+-r base.txt
+
+# Colab compatibility
+numpy<2.2
+# pillow<12
+
+# Colab-only additions
+# tensorflow
+# opencv-python
+# gradio
