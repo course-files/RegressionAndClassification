@@ -92,6 +92,7 @@ Refer to the files below for more details:
 libraries to run a Jupyter notebook locally have been installed in your Python
 virtual environment.
 2. [1a_decision_tree.ipynb](1a_decision_tree.ipynb): A decision tree regressor.
+3. [1b_decision_tree.ipynb](1b_decision_tree.ipynb): A decision tree regressor.
 
 ## Lab Submission Instructions
 
