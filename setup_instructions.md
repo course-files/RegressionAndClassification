@@ -139,7 +139,13 @@ dependencies isolated from the system Python packages.
      - Choose the interpreter that points to your `.venv` folder.
      ![img.png](assets/images/activate_venv_vscode.png)
 
-4. Install the required packages depending on the environment:
+4. Set the correct environment by creating a `.env` file in the root of the repository. Add the values of the following in your .env file as discussed in class:
+
+   ```shell
+   ENVIRONMENT=DEV
+   ```
+
+5. Install the required packages depending on the environment:
     - [base.txt](requirements/base.txt): Defines the fundamental packages that the code in the repository needs to be installed for it to run. It is: Environment-agnostic, developer-curated, stable, and minimal.
     - [dev.txt](requirements/dev.txt): Defines what a developer needs to work productively and safely. It can include linters, formatters, test frameworks, and interactive tools. It should not include platform-specific constraints or deployment-only dependencies.
     - [colab.txt](requirements/colab.txt): It is platform-specific for Google Colab. It specifies the adjustments required when you are running the notebook in Colab, e.g., packages that are not included in Colab by default, and compatibility pins to avoid breaking Colab.
@@ -167,7 +173,7 @@ dependencies isolated from the system Python packages.
         pip install -r requirements/prod.txt
         ```
 
-5. You can confirm the installed packages using:
+6. You can confirm the installed packages using:
 
    ```shell
    pip list
