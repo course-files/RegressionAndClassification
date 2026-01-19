@@ -13,7 +13,8 @@
 
 ```text
 .
-├── 0_helloKenya.ipynb
+├── 0_a_helloKenya.py
+├── 0_b_helloKenya.ipynb
 ├── 1a_decision_tree.ipynb
 ├── 1b_decision_tree.ipynb
 ├── 2_naive_bayes.ipynb
@@ -53,6 +54,8 @@
 │   ├── subscription_churn.csv
 │   ├── subscription_churn_new_data.csv
 │   └── subscription_churn_predicted_data.csv
+├── data_transformer
+│   └── yeo_johnson_transformer.pkl
 ├── frontend_tests
 │   ├── api_test_DT_classifier.html
 │   └── api_test_DT_regressor.html
@@ -70,13 +73,21 @@
 │   ├── naive_Bayes_classifier_optimum.pkl
 │   ├── onehot_encoder_3.pkl
 │   ├── random_forest_classifier_optimum.pkl
+│   ├── scaler_3.pkl
 │   ├── scaler_4.pkl
 │   ├── scaler_5.pkl
 │   └── support_vector_classifier_optimum.pkl
-├── requirements.txt
+├── requirements
+│   ├── base.txt
+│   ├── colab.txt
+│   ├── constraints.txt
+│   ├── dev.inferred.txt
+│   ├── dev.lock.txt
+│   ├── dev.txt
+│   └── prod.txt
 └── setup_instructions.md
 
-7 directories, 56 files
+9 directories, 65 files
 ```
 
 ## Setup Instructions
