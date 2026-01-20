@@ -9,7 +9,13 @@
 | **Contact**      | aomondi@strathmore.edu                                                                                                                                                                                                                                                                               |
 | **Note**         | The lecture contains both theory and practice.<br/>This notebook forms part of the practice.<br/>It is intended for educational purpose only.<br/>Recommended citation: [BibTex](https://raw.githubusercontent.com/course-files/RegressionAndClassification/refs/heads/main/RecommendedCitation.bib) |
 
-## 📦 Project Structure
+## Technology Stack
+
+<p align="left">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40"/>
+</p>
+
+## Project Structure
 
 ```text
 .
@@ -94,16 +100,20 @@
 
 - [Setup Instructions](setup_instructions.md)
 
-## Lab Manual
+## Lab Manuals
 
-Refer to the files below for more details:
+Refer to the files in the order specified below for more details:
 
-1. [0_a_helloKenya.py](0_a_helloKenya.py) and
+- [0_a_helloKenya.py](0_a_helloKenya.py) and
 [0_b_helloKenya.ipynb](0_b_helloKenya.ipynb): to confirm that the required
 libraries to run a Jupyter notebook locally have been installed in your Python
-virtual environment.
-2. [1a_decision_tree.ipynb](1a_decision_tree.ipynb): A decision tree regressor.
-3. [1b_decision_tree.ipynb](1b_decision_tree.ipynb): A decision tree regressor.
+virtual environment
+- [1a_decision_tree.ipynb](1a_decision_tree.ipynb): How to train a decision tree classifier
+- [1b_decision_tree.ipynb](1b_decision_tree.ipynb): How to train a decision tree regressor
+- [2_naive_bayes.ipynb](2_naive_bayes.ipynb) : How to train a Naïve Bayes classifier
+- [3_knn.ipynb](3_knn.ipynb): How to train a k‑Nearest Neighbors (kNN) classifier
+- [4_svm.ipynb](4_svm.ipynb): How to train a Support Vector Machine (SVM) classifier
+- [5_random_forest.ipynb](5_random_forest.ipynb): How to train a random forest classifier
 
 ## Lab Submission Instructions
 
