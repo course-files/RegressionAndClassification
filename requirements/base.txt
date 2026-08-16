@@ -1,6 +1,9 @@
 # requirements/base.txt
-numpy
 pandas
+numpy
 scikit-learn
 matplotlib
 joblib
+scipy
+statsmodels
+shap

@@ -7,5 +7,6 @@ black
 flake8
 ipython
 jupyter
+ipykernel
 seaborn
 python-dotenv
