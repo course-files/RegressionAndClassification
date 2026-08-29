@@ -1,0 +1,851 @@
+student_id,major_subject,parental_education_level,internet_access_quality,part_time_job,study_group_participation,study_hours_per_week,attendance_rate_pct,previous_gpa,sleep_hours_per_night,extracurricular_activities_count,stress_level_score,tutoring_hours_per_week,distance_from_home_km,part_time_job_hours_per_week,final_exam_score
+1,Sciences,Master's,Good,No,Yes,4.1,92.5,2.0765692739141612,6.3,2,6.0,1.1,5.1,,73.0
+2,Engineering,Master's,Good,No,No,8.8,100.0,1.9222978904739658,7.3,1,7.0,1.2,4.9,,79.1
+3,Humanities,High School,Good,Yes,No,7.0,80.5,2.308588245553846,6.7,3,6.0,0.5,5.7,24.29941587161969,73.9
+4,Humanities,Doctorate,Average,No,Yes,5.4,83.8,2.4484350368870706,7.3,0,6.0,1.2,6.5,,80.3
+5,Business,Master's,Poor,No,No,11.6,78.4,2.218870381367419,7.1,0,2.0,2.6,18.2,,78.9
+6,Sciences,Bachelor's,Average,Yes,Yes,7.8,100.0,3.139659483969748,7.4,3,2.0,4.6,3.8,9.182637968728422,100.0
+7,Sciences,High School,Average,Yes,No,6.4,82.5,4.0,6.9,1,5.0,0.3,13.9,12.404605861660933,89.6
+8,Humanities,Bachelor's,Average,No,No,7.8,69.9,2.0995245729065606,5.6,1,3.0,1.6,0.4,,71.8
+9,Sciences,Master's,Good,Yes,Yes,2.7,72.8,2.370769494445107,7.3,1,8.0,0.0,4.1,20.517011917415445,74.2
+10,Business,Bachelor's,Average,Yes,Yes,8.7,92.1,2.6711599573120677,6.2,2,6.0,2.6,6.6,17.850702273780534,94.7
+11,Engineering,Master's,Excellent,Yes,Yes,2.7,66.2,2.6996181732627647,7.3,2,5.0,1.1,3.6,19.804035301183553,76.9
+12,Sciences,Doctorate,Good,No,No,5.1,67.4,2.587208929887172,7.0,2,4.0,0.8,12.8,,85.5
+13,Humanities,Bachelor's,Excellent,Yes,Yes,11.3,94.5,3.776156812738658,4.2,1,5.0,1.5,4.5,19.7896486761376,100.0
+14,Humanities,High School,Excellent,No,No,0.7,92.0,3.1661177784305106,4.5,3,7.0,0.0,4.0,,95.2
+15,Sciences,High School,Excellent,No,No,5.0,78.5,3.3688875866292163,6.7,0,4.0,1.1,15.8,,69.7
+16,Humanities,Master's,Average,No,Yes,7.7,82.2,2.402630059218624,6.5,3,5.0,0.2,2.9,,79.5
+17,Sciences,Bachelor's,Good,No,Yes,1.1,78.9,3.2682884737948097,7.1,1,7.0,0.7,6.7,,77.3
+18,Humanities,Bachelor's,Excellent,Yes,No,3.1,71.1,2.263645330937986,6.6,2,4.0,1.4,2.8,3.951674455006568,83.9
+19,Humanities,Bachelor's,Average,No,No,7.4,73.9,3.3731773474074367,4.4,3,5.0,0.0,6.6,,83.1
+20,Engineering,Master's,Poor,Yes,Yes,3.2,73.5,3.380391831004075,8.3,1,3.0,0.2,18.6,18.80702201728761,83.5
+21,Business,Bachelor's,Excellent,No,No,10.6,93.8,3.553521011869079,8.6,0,4.0,4.8,10.1,,96.9
+22,Business,Bachelor's,Average,No,Yes,27.5,75.0,2.518776434284849,5.2,2,8.0,4.1,3.5,,93.5
+23,Engineering,Doctorate,Average,Yes,Yes,6.2,84.4,2.469672734378712,7.0,1,6.0,1.0,20.3,4.550673135489756,79.2
+24,Humanities,Bachelor's,Good,Yes,No,13.8,86.8,3.081067271317097,7.0,2,7.0,1.1,11.9,10.148580245926595,80.9
+25,Engineering,Bachelor's,Average,No,No,8.7,94.6,3.2468981208511662,7.1,0,3.0,4.2,3.2,,93.6
+26,Business,Master's,Poor,Yes,Yes,8.1,97.4,2.9325631218015555,6.5,0,8.0,3.5,3.3,16.68957789941269,81.1
+27,Engineering,Bachelor's,Good,Yes,No,4.2,74.9,3.480969136381974,9.2,2,6.0,1.3,2.9,6.972372398606274,90.0
+28,Engineering,Doctorate,Good,Yes,No,12.2,86.7,3.8729971431411934,6.9,0,8.0,3.6,5.3,17.567185581102724,99.4
+29,Engineering,Doctorate,Average,Yes,Yes,14.2,100.0,2.862593296490084,6.6,2,3.0,3.4,1.3,16.474774313507538,99.4
+30,Engineering,High School,Good,Yes,No,5.8,91.3,3.4094997136146925,6.2,1,7.0,1.8,10.9,14.554901639611682,92.7
+31,Sciences,Master's,Excellent,Yes,Yes,26.8,85.2,2.618184357337064,5.3,0,8.0,2.1,10.2,21.74085293520441,100.0
+32,Humanities,Master's,Average,No,No,5.7,89.7,3.8566089458057773,8.2,4,6.0,1.5,2.2,,88.5
+33,Sciences,Bachelor's,Average,Yes,No,13.8,55.5,3.4562114385274656,5.1,2,5.0,2.8,23.8,15.038641911811116,87.7
+34,Humanities,Master's,Good,No,No,12.2,77.5,2.8979259549356655,5.2,0,5.0,4.5,7.5,,100.0
+35,Engineering,Bachelor's,Average,No,No,2.0,100.0,3.4668270352809483,7.0,0,4.0,1.2,9.2,,82.4
+36,Sciences,Master's,Poor,No,Yes,4.9,64.8,,5.7,1,5.0,1.6,18.4,,82.7
+37,Business,Bachelor's,Good,No,Yes,9.8,79.1,2.760711020306219,6.1,2,6.0,4.3,18.4,,85.8
+38,Business,Bachelor's,Good,No,No,5.7,84.1,2.5753693576561325,7.8,4,7.0,1.2,21.1,,77.8
+39,Sciences,Master's,Excellent,No,Yes,2.9,97.8,4.0,6.4,1,10.0,0.4,12.3,,97.1
+40,Engineering,Bachelor's,Good,No,No,23.2,100.0,3.084136488097142,8.1,2,7.0,3.6,12.7,,100.0
+41,Sciences,High School,Good,No,Yes,4.3,67.3,2.4137679302691786,4.2,1,4.0,1.3,6.0,,75.6
+42,Business,High School,Good,Yes,Yes,5.4,61.8,3.8699835780808547,7.3,1,1.0,1.0,5.5,12.797465890973601,93.3
+43,Sciences,Bachelor's,Excellent,No,No,0.6,85.5,,7.0,1,4.0,0.2,10.1,,80.7
+44,Business,Doctorate,Average,No,No,3.4,70.0,2.5288011719196386,5.9,1,6.0,0.3,3.2,,84.0
+45,Business,High School,Average,No,Yes,12.3,85.5,3.9472714324093063,6.3,3,3.0,3.5,5.4,,100.0
+46,Business,Master's,Average,No,No,2.8,100.0,2.7354544663990907,6.7,3,3.0,0.0,5.1,,81.9
+47,Engineering,High School,Good,No,Yes,17.0,45.7,2.772864669122238,7.9,2,7.0,5.3,14.6,,86.9
+48,Sciences,Master's,Average,Yes,Yes,4.2,74.8,2.86067427318657,6.3,1,5.0,1.4,4.3,9.248994359549787,62.6
+49,Business,Master's,Average,Yes,Yes,11.5,85.4,2.6605837628844755,6.0,3,7.0,3.1,6.2,12.415129436128737,95.5
+50,Engineering,Bachelor's,Excellent,No,No,3.5,74.7,2.185159655292445,7.7,0,5.0,3.2,5.5,,73.6
+51,Business,Bachelor's,Excellent,No,No,19.1,89.6,2.8840288556963842,6.5,1,6.0,6.2,2.8,,100.0
+52,Sciences,Master's,Good,No,Yes,12.8,73.9,2.287915221171336,5.9,2,6.0,1.8,11.5,,89.5
+53,Business,Master's,Average,No,No,12.5,82.9,2.9940752553585632,6.7,1,8.0,1.7,3.3,,84.5
+54,Humanities,Master's,Good,No,Yes,4.2,72.1,2.622016117361135,6.4,1,7.0,2.8,6.9,,82.7
+55,Business,Bachelor's,Poor,No,No,4.2,92.8,2.4816521848916406,7.7,2,4.0,0.9,22.5,,87.2
+56,Business,Master's,Good,Yes,No,13.3,89.7,2.720897250608118,7.0,2,7.0,3.1,3.0,10.147978648001912,95.0
+57,Engineering,Doctorate,Average,Yes,No,3.9,70.2,3.179539556157023,6.8,1,5.0,1.7,0.3,10.956043196082925,83.3
+58,Engineering,High School,Poor,Yes,Yes,23.4,54.3,3.6959512369854637,7.5,0,6.0,3.6,9.0,13.227398557064552,84.6
+59,Business,Bachelor's,Average,No,Yes,8.4,100.0,2.588325961207003,6.1,2,5.0,1.1,1.0,,88.4
+60,Humanities,High School,Good,Yes,No,5.5,93.4,3.9103698570009042,4.9,0,2.0,0.9,7.6,12.80252489900681,90.9
+61,Sciences,Master's,Good,No,No,1.6,84.9,3.479271771225168,5.3,1,1.0,0.0,6.6,,81.4
+62,Engineering,Bachelor's,Average,Yes,No,5.6,75.1,3.331950826153724,5.7,2,8.0,0.0,6.9,17.94651782288747,69.6
+63,Sciences,Bachelor's,Excellent,Yes,No,9.7,88.4,2.129307160190416,6.8,0,7.0,2.1,6.7,19.6790440560329,80.5
+64,Sciences,Bachelor's,Average,No,Yes,6.1,72.8,2.5958402717671816,7.1,0,7.0,1.9,21.3,,62.4
+65,Humanities,Bachelor's,Poor,Yes,Yes,7.8,69.8,2.097323694505042,5.6,3,5.0,3.2,5.3,17.969651863451944,74.9
+66,Sciences,Bachelor's,Good,No,Yes,3.9,80.6,3.082945334241491,5.0,2,6.0,1.8,5.8,,94.6
+67,Sciences,Master's,Poor,No,No,14.7,81.3,3.148301116151701,7.8,2,7.0,1.2,14.0,,85.9
+68,Engineering,High School,Good,No,No,9.1,83.8,3.150057580106647,8.1,1,7.0,1.4,18.4,,85.0
+69,Engineering,Master's,Average,No,Yes,10.5,87.4,2.3421948711820892,6.3,0,5.0,5.8,5.0,,78.6
+70,Humanities,Master's,Average,No,No,13.6,70.2,2.5434497858846163,8.4,2,4.0,3.3,5.8,,98.1
+71,Humanities,Master's,Average,Yes,Yes,13.6,55.4,2.832703038776846,5.3,0,6.0,6.2,13.7,16.738704283760804,82.2
+72,Humanities,Doctorate,Average,No,No,10.1,98.6,3.1185490488792267,5.8,2,6.0,1.1,11.8,,96.0
+73,Humanities,Bachelor's,Average,No,No,1.4,100.0,3.3087517121286654,6.0,1,5.0,0.0,3.9,,87.4
+74,Engineering,Bachelor's,Average,No,Yes,14.8,93.5,3.3675619685672706,5.6,2,7.0,5.2,4.0,,100.0
+75,Engineering,Bachelor's,Poor,Yes,No,8.4,85.7,3.3561040162814106,8.8,1,6.0,1.1,6.4,19.857331559615595,91.9
+76,Business,Bachelor's,Average,Yes,No,7.8,85.9,2.113662996036214,7.0,0,5.0,1.7,5.0,18.650461001777373,75.7
+77,Engineering,Master's,Good,Yes,No,5.6,93.8,4.0,7.9,0,3.0,0.1,19.0,5.885028214357732,92.6
+78,Humanities,Doctorate,Average,No,Yes,7.3,66.0,2.7777337727133484,5.7,0,8.0,2.4,11.8,,82.9
+79,Humanities,Bachelor's,Good,Yes,No,9.3,73.4,2.725942148494188,6.5,1,4.0,3.4,11.8,7.7876897654516615,88.9
+80,Sciences,High School,Poor,Yes,No,12.6,67.4,2.3673205964423887,6.4,0,7.0,2.6,5.0,11.607154176232541,70.5
+81,Sciences,High School,Good,No,No,2.3,65.6,3.042661958529224,6.1,0,10.0,1.4,7.9,,74.7
+82,Engineering,Bachelor's,Average,Yes,No,4.1,90.1,2.6027932520694725,7.4,3,2.0,0.1,7.0,8.714902321196757,84.6
+83,Sciences,Doctorate,Average,Yes,Yes,11.2,83.6,2.9111995440208505,6.1,0,8.0,2.2,8.7,17.05503477425762,84.7
+84,Engineering,Bachelor's,Poor,Yes,No,32.0,58.0,3.323056220860098,7.3,0,4.0,5.4,8.3,7.399562450618935,100.0
+85,Humanities,High School,Average,Yes,Yes,5.2,74.4,3.2926186710633876,6.7,3,2.0,3.0,16.5,13.321570359101711,77.5
+86,Sciences,Bachelor's,Excellent,No,Yes,14.2,92.8,3.098841113577523,6.8,1,2.0,1.9,4.0,,100.0
+87,Engineering,High School,Good,Yes,Yes,4.6,98.2,2.5675411308601657,6.3,0,6.0,0.4,4.8,20.818998016628058,74.1
+88,Business,High School,Good,No,No,5.4,96.9,3.097763547689435,6.3,0,6.0,0.0,7.5,,94.8
+89,Engineering,Master's,Average,No,Yes,14.7,100.0,2.8383766243090336,6.0,2,5.0,4.5,4.1,,99.5
+90,Humanities,Bachelor's,Good,Yes,Yes,19.8,80.5,2.832234975505372,4.9,1,7.0,5.0,1.2,15.221254479991204,98.5
+91,Business,Master's,Good,Yes,No,4.2,79.2,2.827968788701077,9.4,1,8.0,0.0,3.1,12.67209258989189,80.1
+92,Engineering,High School,Average,No,No,2.0,86.2,2.687740632074983,5.4,1,9.0,0.5,2.1,,79.7
+93,Business,Bachelor's,Good,Yes,Yes,6.5,76.3,3.488056399140475,4.4,0,5.0,1.6,11.7,13.799946034618532,86.5
+94,Business,High School,Average,Yes,Yes,3.7,77.5,4.0,6.3,1,7.0,1.3,18.1,11.534407121528131,89.6
+95,Sciences,Doctorate,Poor,Yes,No,27.5,71.0,3.1821079115043402,8.1,0,4.0,3.8,7.5,10.422017817949351,100.0
+96,Humanities,High School,Good,Yes,No,4.4,99.2,2.804545513779967,5.7,1,7.0,0.0,7.1,13.758420909156813,72.4
+97,Engineering,Bachelor's,Average,No,Yes,3.4,82.4,2.686315284119613,7.6,0,7.0,1.2,8.5,,84.3
+98,Humanities,High School,Average,Yes,No,7.0,92.1,2.55624225009473,6.7,4,9.0,2.1,11.1,5.798049635923832,75.6
+99,Business,Master's,Excellent,No,No,3.7,88.1,2.5686278005637484,7.0,1,4.0,0.0,12.1,,83.4
+100,Business,High School,Good,No,No,6.2,93.0,3.551508472292857,8.2,0,7.0,0.4,7.8,,90.1
+101,Humanities,Bachelor's,Average,No,No,3.6,95.4,2.441119228562962,4.8,2,8.0,0.0,14.7,,68.6
+102,Business,Master's,Good,No,Yes,12.1,100.0,3.7030982842900677,5.1,2,6.0,0.0,8.4,,99.9
+103,Engineering,Bachelor's,Poor,No,No,6.5,87.7,3.340052496078203,4.8,2,9.0,2.6,9.8,,87.7
+104,Business,Bachelor's,Good,No,Yes,4.4,71.2,,8.6,1,9.0,0.1,6.3,,81.8
+105,Business,High School,Good,No,No,7.9,61.1,4.0,5.9,1,4.0,2.6,27.2,,100.0
+106,Sciences,High School,Poor,Yes,Yes,7.6,79.1,2.724108555198039,6.8,3,6.0,1.4,20.0,16.219742369881807,73.5
+107,Engineering,Master's,Average,Yes,No,8.1,52.4,3.467118665063439,5.8,3,6.0,1.3,0.6,21.890966752640022,82.3
+108,Engineering,Master's,Average,No,Yes,6.0,78.9,2.377847277220555,5.5,2,3.0,1.5,3.8,,90.6
+109,Business,High School,Good,Yes,No,7.6,65.0,2.055678144335228,5.8,2,5.0,0.8,7.0,17.112801732895,63.5
+110,Humanities,Master's,Good,No,Yes,6.1,56.4,3.0260179285791486,8.1,2,4.0,0.5,6.9,,75.1
+111,Engineering,Bachelor's,Good,No,Yes,9.4,86.8,3.3877311219361155,7.0,3,7.0,0.9,3.7,,92.5
+112,Engineering,Master's,Good,Yes,Yes,12.0,70.5,2.6339279404225335,7.1,1,6.0,1.5,11.7,17.517962513009735,87.2
+113,Sciences,High School,Good,No,No,3.5,97.9,1.5217991402677349,6.8,2,6.0,0.0,9.2,,65.0
+114,Humanities,Bachelor's,Average,Yes,No,9.8,84.4,2.8711622829427688,6.0,0,3.0,2.5,0.8,21.381644952524113,91.0
+115,Sciences,Master's,Good,Yes,Yes,3.3,91.7,2.3723109099891544,8.9,3,5.0,0.0,19.6,3.7853370020245265,72.0
+116,Sciences,High School,Excellent,Yes,No,7.1,84.8,,7.7,2,8.0,3.1,4.5,11.20713380961616,95.8
+117,Humanities,Doctorate,Poor,No,No,8.6,72.4,3.861716726663408,6.6,2,4.0,2.0,1.4,,92.5
+118,Humanities,Bachelor's,Good,No,Yes,4.5,90.6,3.2732123955945793,4.0,0,7.0,1.5,9.6,,93.2
+119,Engineering,Bachelor's,Good,No,Yes,10.0,93.4,3.251256306228491,7.3,1,8.0,3.6,2.8,,95.9
+120,Business,High School,Average,Yes,No,1.6,65.3,3.2742098795483168,8.1,0,5.0,0.0,9.7,18.319737134597368,68.9
+121,Engineering,High School,Good,Yes,Yes,6.4,77.1,3.8512902824952184,5.1,1,4.0,1.9,13.6,12.609119653315547,98.9
+122,Humanities,Bachelor's,Poor,No,No,8.1,93.7,2.288135762184405,5.1,3,7.0,1.6,4.8,,80.6
+123,Engineering,Bachelor's,Average,Yes,No,11.2,77.4,2.8436363161352713,6.8,0,7.0,2.5,6.2,17.702149617815895,84.5
+124,Business,High School,Good,No,Yes,3.5,100.0,2.335630002345233,9.3,0,7.0,0.1,5.1,,89.8
+125,Sciences,Master's,Average,Yes,No,4.2,99.1,2.8268207560932708,6.3,1,5.0,1.0,4.5,19.77105460667137,81.3
+126,Sciences,Master's,Poor,No,No,5.0,86.8,2.830559536347816,8.1,1,9.0,1.3,11.1,,75.4
+127,Humanities,Bachelor's,Poor,Yes,Yes,7.3,93.1,3.321446482278522,7.2,3,2.0,1.2,11.8,21.501302940013694,95.6
+128,Sciences,High School,Good,No,Yes,4.5,100.0,3.1851434078039467,7.4,3,6.0,0.9,9.8,,96.4
+129,Sciences,Bachelor's,Good,No,Yes,3.4,81.7,3.4862843442843374,5.4,0,8.0,0.0,9.6,,92.1
+130,Business,High School,Poor,No,No,1.8,82.8,2.61743089988173,6.6,1,8.0,1.8,8.5,,82.9
+131,Sciences,Bachelor's,Average,No,No,4.2,87.2,2.3126543695200112,7.2,0,4.0,1.8,6.5,,81.7
+132,Humanities,Master's,Average,No,No,7.0,82.6,,6.8,3,7.0,1.5,2.1,,89.0
+133,Humanities,High School,Excellent,Yes,Yes,8.8,92.8,2.763783810986461,5.0,0,4.0,1.8,2.3,13.562193322224758,95.5
+134,Humanities,Doctorate,Excellent,No,Yes,15.4,92.2,,7.4,5,6.0,1.2,15.5,,88.9
+135,Engineering,Master's,Poor,No,No,11.7,88.4,3.4267681948973516,7.1,2,6.0,3.8,5.8,,92.2
+136,Business,Doctorate,Good,No,No,12.1,74.8,1.8135706352618493,5.2,1,7.0,0.0,8.6,,74.6
+137,Engineering,Bachelor's,Good,Yes,Yes,7.5,83.1,1.8305409933179115,6.9,3,5.0,2.7,11.1,20.604927917673596,86.4
+138,Business,Master's,Average,Yes,Yes,12.2,76.5,3.0944032261805816,8.5,0,2.0,2.0,1.9,12.927040808058234,100.0
+139,Engineering,Doctorate,Poor,No,No,4.5,86.7,4.0,6.6,3,6.0,3.4,4.9,,96.2
+140,Business,High School,Average,No,Yes,7.2,98.2,3.2389344702720293,7.2,0,7.0,1.7,19.1,,94.4
+141,Business,Bachelor's,Good,No,Yes,9.6,74.9,2.4928604532972067,6.5,1,3.0,0.0,6.7,,77.1
+142,Business,Bachelor's,Average,Yes,No,5.0,86.8,3.854218565937609,10.0,2,5.0,0.9,5.3,16.993173025935064,81.0
+143,Engineering,Bachelor's,Average,No,Yes,5.4,51.3,3.150630323257727,6.1,0,3.0,1.8,1.6,,81.3
+144,Business,Bachelor's,Good,No,No,3.9,77.5,3.8154904458298464,7.6,1,5.0,1.0,2.5,,100.0
+145,Engineering,Doctorate,Good,No,No,5.6,61.2,3.1383579698909148,9.9,2,2.0,2.1,19.2,,94.4
+146,Business,High School,Good,Yes,No,4.8,92.4,2.72566019304672,6.2,2,4.0,1.0,10.1,8.149494318332298,90.3
+147,Sciences,Master's,Average,Yes,No,2.2,58.5,3.0026356694622227,6.0,1,6.0,1.3,12.7,11.043178919642697,73.7
+148,Business,Bachelor's,Good,No,No,11.0,93.9,3.206580549844838,5.9,1,3.0,3.3,15.4,,92.9
+149,Sciences,High School,Average,Yes,Yes,20.9,66.6,2.793805075525801,7.1,2,8.0,2.3,6.5,17.06003441371274,88.3
+150,Engineering,Master's,Good,Yes,Yes,10.1,69.8,2.7838623688168993,7.1,0,3.0,3.1,5.4,16.004241096396452,92.3
+151,Sciences,Master's,Good,Yes,Yes,8.3,52.3,2.653127182997482,6.0,2,6.0,1.7,8.7,22.1765382574739,71.2
+152,Humanities,Bachelor's,Average,No,Yes,14.2,96.2,2.9773237948677753,6.3,0,2.0,2.9,1.3,,96.2
+153,Engineering,Master's,Average,Yes,No,5.8,69.3,3.09740534674321,5.1,0,3.0,0.0,2.9,14.542748719231806,85.9
+154,Engineering,Master's,Average,Yes,No,5.6,82.3,3.0616263263848587,5.3,0,4.0,1.0,9.4,4.721361438706161,87.9
+155,Sciences,Doctorate,Good,No,No,16.7,70.6,2.648521106637103,7.4,2,5.0,5.3,9.6,,90.7
+156,Humanities,Bachelor's,Excellent,Yes,Yes,4.1,76.2,1.656655545452977,7.0,3,3.0,0.0,1.2,16.398996260703463,72.8
+157,Engineering,Bachelor's,Good,No,No,9.3,61.5,,6.1,3,2.0,4.3,1.6,,77.7
+158,Humanities,Bachelor's,Average,No,Yes,6.3,73.6,3.568225482486952,6.5,0,7.0,2.1,12.1,,80.1
+159,Business,Bachelor's,Good,No,No,6.5,59.7,3.823821985720377,7.2,2,8.0,0.2,2.8,,84.6
+160,Humanities,Doctorate,Average,No,No,16.5,76.3,3.167762335618964,5.0,1,6.0,1.3,3.2,,91.3
+161,Humanities,High School,Excellent,No,No,4.1,99.0,2.0411798228216678,5.2,2,6.0,0.0,15.2,,87.3
+162,Humanities,High School,Good,Yes,Yes,6.3,57.9,3.6321144630184343,7.3,4,8.0,1.3,6.7,19.04188517212875,90.8
+163,Humanities,Master's,Good,Yes,Yes,15.9,66.0,2.1194236721060657,6.9,0,7.0,2.4,22.9,13.207910939484222,91.8
+164,Engineering,Bachelor's,Average,No,No,10.5,100.0,1.9885079190083803,6.7,0,2.0,6.2,9.7,,90.6
+165,Business,Bachelor's,Excellent,No,Yes,20.8,78.3,3.338017172416786,9.0,1,5.0,4.0,6.0,,100.0
+166,Humanities,Bachelor's,Excellent,No,Yes,5.0,97.9,3.434904140565348,5.9,1,8.0,2.6,2.4,,96.4
+167,Humanities,Master's,Excellent,No,Yes,4.3,64.9,3.040797487326809,6.2,2,5.0,3.2,5.5,,79.3
+168,Humanities,Master's,Excellent,No,No,8.0,58.1,2.783275971672594,8.8,2,4.0,1.5,8.0,,79.5
+169,Engineering,Master's,Good,No,Yes,8.9,61.6,3.248401599056875,5.9,1,4.0,5.1,11.9,,84.2
+170,Humanities,High School,Good,No,Yes,9.0,77.6,4.0,5.5,0,7.0,4.1,11.1,,98.3
+171,Business,Bachelor's,Poor,Yes,No,2.9,92.5,3.3441400247023867,6.3,3,6.0,1.5,15.5,18.750299585535636,85.7
+172,Engineering,High School,Poor,No,No,7.3,95.1,2.243039242357146,6.6,1,6.0,4.8,4.7,,72.4
+173,Business,Master's,Good,No,No,7.8,84.3,2.84526778807792,7.7,0,5.0,3.3,10.9,,75.8
+174,Sciences,Bachelor's,Average,No,No,4.2,96.3,2.2823139246643187,5.7,0,8.0,2.0,14.3,,84.7
+175,Engineering,Doctorate,Average,No,No,13.0,100.0,3.283082015489485,7.1,0,2.0,0.2,1.9,,88.1
+176,Sciences,High School,Poor,No,No,13.1,80.1,,5.4,1,9.0,1.6,1.2,,77.5
+177,Engineering,Bachelor's,Excellent,Yes,Yes,7.8,82.2,3.98516810881019,8.0,1,4.0,1.8,2.6,20.46055043945269,95.9
+178,Engineering,Bachelor's,Good,No,Yes,6.3,91.1,3.670848919107112,7.1,0,4.0,1.1,5.7,,86.1
+179,Engineering,High School,Good,Yes,No,10.8,100.0,2.8677450734494214,6.8,5,1.0,1.7,9.3,24.540971798731324,78.1
+180,Business,High School,Average,No,No,9.1,87.8,2.959781039876037,5.5,0,8.0,1.7,7.8,,80.9
+181,Humanities,Bachelor's,Average,No,No,5.0,71.1,3.887210811369856,5.8,3,7.0,0.2,17.2,,87.2
+182,Sciences,High School,Average,Yes,Yes,5.3,48.4,3.397967728083495,4.8,0,3.0,3.4,7.0,16.877399412169378,86.0
+183,Business,High School,Poor,Yes,No,2.7,80.0,3.6894017680237456,7.8,1,4.0,1.7,3.6,9.507206243984797,92.0
+184,Business,Bachelor's,Poor,Yes,No,10.1,95.1,2.6585561751302857,7.3,0,5.0,1.7,5.8,14.618920970370425,87.5
+185,Humanities,Bachelor's,Good,No,No,6.4,99.4,3.0713261933031033,7.2,0,6.0,2.1,14.0,,83.7
+186,Humanities,High School,Good,No,No,11.2,74.7,3.465851636488189,7.3,2,10.0,1.0,5.6,,95.6
+187,Sciences,Master's,Average,No,No,9.9,98.1,3.045319516021245,7.1,2,6.0,4.0,6.8,,100.0
+188,Engineering,Bachelor's,Excellent,No,Yes,14.5,58.7,3.3228917412448067,8.3,1,7.0,3.5,24.1,,98.9
+189,Engineering,Bachelor's,Excellent,No,No,13.2,87.4,3.634695316661384,4.9,3,7.0,3.2,5.4,,98.6
+190,Humanities,Bachelor's,Good,No,No,2.6,88.8,2.2445597093391116,8.8,2,9.0,1.7,2.9,,81.5
+191,Business,High School,Average,No,Yes,8.7,85.6,3.7628505112163757,4.9,3,8.0,1.9,4.3,,96.1
+192,Humanities,Master's,Good,No,Yes,8.6,98.5,4.0,6.0,0,4.0,0.5,22.0,,100.0
+193,Sciences,Bachelor's,Average,No,Yes,1.5,71.1,3.655939013284235,6.5,1,5.0,0.0,8.2,,91.3
+194,Engineering,Bachelor's,Average,Yes,Yes,6.8,89.2,3.214330916203748,5.2,2,6.0,2.2,1.6,11.985744620362539,82.0
+195,Engineering,High School,Average,No,No,3.6,47.7,2.8270778552854914,7.5,0,6.0,3.0,5.2,,67.8
+196,Business,Bachelor's,Poor,No,Yes,3.1,71.9,3.0162052501466956,8.5,1,5.0,1.8,1.7,,86.7
+197,Sciences,Bachelor's,Good,Yes,No,6.0,100.0,3.4364134183367003,8.8,1,4.0,2.4,6.8,15.734402463293378,100.0
+198,Humanities,High School,Average,No,Yes,5.6,61.7,3.7337832464042693,5.1,1,7.0,0.0,11.8,,79.0
+199,Humanities,Master's,Average,No,Yes,8.0,82.2,3.4654801138918496,7.5,0,2.0,0.4,4.1,,94.2
+200,Sciences,High School,Poor,Yes,No,2.2,95.8,2.8977310195606023,4.0,0,6.0,0.0,32.5,8.648914607843562,84.9
+201,Engineering,Master's,Average,No,No,14.7,85.2,3.0001269475997487,3.3,3,7.0,6.0,5.6,,100.0
+202,Engineering,High School,Good,No,No,11.0,87.1,3.6266000752773393,6.9,1,5.0,1.8,13.2,,97.2
+203,Business,Bachelor's,Good,Yes,Yes,4.4,99.3,3.9614696685182067,4.7,2,6.0,0.6,5.6,12.949122094381071,94.2
+204,Sciences,Master's,Good,No,Yes,23.3,70.6,3.540058440765776,6.4,2,3.0,4.7,10.3,,100.0
+205,Engineering,Bachelor's,Excellent,No,No,7.1,56.1,2.03192984431321,6.3,1,6.0,1.4,4.8,,76.6
+206,Business,Bachelor's,Average,No,Yes,16.4,95.4,2.7387094979078745,3.7,2,6.0,1.1,5.4,,88.8
+207,Sciences,Master's,Good,Yes,No,6.6,81.7,2.9195047195795585,4.9,1,6.0,2.3,11.4,12.469284669639213,86.6
+208,Humanities,Master's,Good,No,No,4.2,59.7,3.853747839008145,6.0,0,4.0,2.4,1.0,,81.7
+209,Sciences,Bachelor's,Poor,No,No,13.2,71.5,2.114265639581564,5.7,2,4.0,1.9,18.4,,73.0
+210,Business,Bachelor's,Poor,No,No,2.3,54.6,2.84244968332121,6.9,2,7.0,0.3,15.5,,80.7
+211,Sciences,High School,Average,Yes,No,5.0,55.1,3.5875553852758735,6.8,0,5.0,0.1,10.8,13.416440140077388,67.7
+212,Sciences,Bachelor's,Good,Yes,Yes,9.3,77.8,3.5749736273714787,5.6,1,2.0,0.7,18.5,10.122545709969218,88.6
+213,Business,Bachelor's,Poor,No,No,12.2,77.1,2.959163500044973,7.3,2,6.0,1.3,5.8,,82.2
+214,Business,Bachelor's,Average,Yes,No,4.9,76.0,3.074002886665542,6.4,4,4.0,0.2,14.8,14.28053706292937,88.9
+215,Sciences,High School,Excellent,Yes,No,10.5,100.0,2.536094793042958,6.6,1,5.0,2.5,8.7,12.561231365570679,78.6
+216,Business,Master's,Average,No,No,1.7,75.0,2.2195520343128647,6.4,1,1.0,0.8,6.5,,76.3
+217,Sciences,High School,Average,Yes,No,8.8,80.9,,6.2,3,6.0,5.2,13.8,15.534323650109208,87.4
+218,Sciences,Master's,Good,Yes,Yes,18.9,90.4,2.5241651008599195,5.8,3,6.0,1.1,5.6,9.179916242057512,86.8
+219,Sciences,High School,Excellent,No,No,9.9,94.1,2.9535143559858863,6.8,3,4.0,2.7,17.3,,100.0
+220,Engineering,Doctorate,Good,Yes,Yes,10.7,61.8,3.336893116528298,7.0,1,6.0,2.2,6.8,7.178920859440607,91.4
+221,Engineering,Master's,Poor,No,Yes,6.4,82.6,3.555575825995091,7.0,2,5.0,1.8,4.6,,94.5
+222,Business,Bachelor's,Good,No,No,7.5,75.7,3.0345676855481116,7.8,3,8.0,1.8,11.4,,78.7
+223,Business,High School,Average,Yes,Yes,3.4,77.0,2.840799857458529,3.0,1,7.0,0.3,13.9,26.745402239932723,77.2
+224,Sciences,High School,Good,Yes,Yes,3.3,94.8,3.5133591812536924,4.9,1,3.0,3.0,1.1,17.13202812330254,91.2
+225,Humanities,High School,Good,No,No,4.4,66.5,1.4636367337733611,4.5,2,6.0,0.8,5.5,,62.6
+226,Engineering,Bachelor's,Good,No,No,7.0,69.4,2.623186020805885,7.0,1,2.0,1.2,17.0,,84.5
+227,Humanities,High School,Good,Yes,Yes,9.6,88.1,3.8548309209404725,6.9,1,1.0,2.2,8.6,3.768989955004752,64.8
+228,Humanities,Bachelor's,Good,No,No,4.0,84.3,2.6330883477302205,6.1,4,2.0,0.7,7.0,,68.6
+229,Humanities,Bachelor's,Excellent,Yes,Yes,6.6,88.9,2.5889145293008307,6.7,1,5.0,3.7,4.1,10.608645082223822,83.5
+230,Sciences,Bachelor's,Average,No,Yes,3.2,60.0,3.193570788263246,8.4,0,2.0,2.4,7.4,,86.7
+231,Business,High School,Average,No,Yes,5.1,87.6,3.11247546698522,9.5,0,3.0,1.3,3.7,,79.9
+232,Engineering,Bachelor's,Average,No,No,14.1,88.5,3.531222744698396,8.0,0,6.0,4.6,2.0,,98.5
+233,Engineering,High School,Good,Yes,No,6.5,54.8,2.905191740421071,7.4,2,2.0,0.8,2.7,18.50818623844355,71.1
+234,Sciences,High School,Average,Yes,No,13.7,68.3,1.867673484106,7.3,1,5.0,3.0,6.7,11.794729322552577,74.9
+235,Humanities,Bachelor's,Good,No,No,3.3,88.1,3.0528690827931713,6.5,2,7.0,1.8,6.6,,80.0
+236,Engineering,Bachelor's,Average,Yes,No,10.6,74.0,2.959674761104677,5.7,1,1.0,2.8,6.3,14.29825805588616,94.0
+237,Business,High School,Good,Yes,No,2.9,89.1,3.4291666136095653,6.4,0,5.0,4.2,19.0,10.699764761311437,95.8
+238,Engineering,Bachelor's,Poor,No,Yes,11.9,88.6,3.692938627638845,7.1,1,7.0,2.3,7.7,,100.0
+239,Sciences,High School,Average,No,No,9.7,81.7,2.789369978607608,6.8,0,7.0,2.4,39.0,,100.0
+240,Engineering,High School,Average,Yes,No,6.3,90.5,2.742207073639927,6.0,1,9.0,0.1,5.5,17.20113781206338,76.4
+241,Humanities,Bachelor's,Poor,Yes,Yes,17.0,79.8,2.616684352390492,6.3,0,7.0,5.1,5.7,16.457889154603603,85.6
+242,Business,Bachelor's,Poor,No,Yes,1.4,88.6,3.220554824220282,6.4,2,4.0,0.4,2.2,,92.5
+243,Sciences,Master's,Excellent,No,Yes,4.2,59.1,2.4504561572979213,7.3,0,7.0,0.3,10.2,,79.3
+244,Humanities,Bachelor's,Average,No,Yes,7.5,75.8,3.245854553609726,5.9,1,3.0,0.9,10.6,,93.2
+245,Business,Bachelor's,Good,No,Yes,1.7,92.3,2.5480323920500814,5.8,2,5.0,1.6,9.3,,86.0
+246,Business,Bachelor's,Poor,Yes,No,2.8,74.6,2.528170653652544,6.4,0,5.0,0.0,3.0,19.241061571415493,79.0
+247,Engineering,Bachelor's,Poor,Yes,No,3.5,100.0,2.717909759220044,7.1,3,5.0,0.0,14.9,7.702038332084895,71.2
+248,Humanities,Bachelor's,Poor,No,Yes,10.9,98.7,2.246569734455449,5.0,5,6.0,1.3,15.5,,84.4
+249,Humanities,Doctorate,Good,No,No,9.0,52.3,2.8983707773597023,6.5,0,9.0,0.1,2.2,,76.6
+250,Humanities,High School,Average,No,Yes,23.9,87.5,3.2629936858819906,7.9,3,9.0,6.8,40.8,,100.0
+251,Sciences,High School,Average,No,No,7.2,52.6,2.7843101986894623,6.1,0,5.0,1.8,7.2,,76.3
+252,Business,Master's,Average,No,No,4.6,65.7,2.167954415417488,6.7,1,6.0,0.8,11.3,,73.1
+253,Sciences,High School,Good,No,Yes,8.7,71.4,3.1638504814501096,6.8,4,6.0,4.9,4.9,,96.1
+254,Sciences,High School,Poor,No,No,23.9,100.0,1.8711239632154537,5.0,1,8.0,5.2,3.5,,72.8
+255,Engineering,Bachelor's,Excellent,No,Yes,7.9,100.0,2.4474678097911373,7.1,2,5.0,1.9,9.2,,87.5
+256,Sciences,Master's,Average,No,No,4.6,92.2,1.909641076214474,4.4,3,7.0,3.0,2.1,,81.8
+257,Business,High School,Poor,No,Yes,16.6,77.1,2.0186742446008124,6.7,0,5.0,4.0,14.2,,81.8
+258,Business,Master's,Good,No,No,7.3,96.9,3.760300292126707,8.0,2,6.0,2.4,2.5,,100.0
+259,Engineering,High School,Excellent,Yes,No,7.7,53.7,3.054725286714259,6.5,1,5.0,2.7,31.2,12.995932014986849,96.3
+260,Sciences,Bachelor's,Good,No,No,1.1,83.1,2.264828398627797,8.0,1,6.0,2.0,2.7,,74.5
+261,Sciences,Bachelor's,Average,No,No,12.9,95.2,2.7234888957591634,6.3,0,5.0,0.0,1.1,,90.5
+262,Sciences,High School,Average,No,Yes,6.3,100.0,3.0637864599340823,8.1,1,9.0,0.0,10.2,,83.4
+263,Humanities,High School,Good,No,No,11.7,65.1,3.1510043629061673,5.8,3,7.0,4.7,4.3,,83.4
+264,Humanities,Master's,Good,Yes,Yes,24.0,97.1,2.4171197654198657,8.6,4,5.0,5.1,2.7,22.65829190111259,100.0
+265,Humanities,Master's,Poor,Yes,No,23.6,87.9,2.8737968146362727,4.8,2,5.0,2.9,4.5,24.059054843302732,86.1
+266,Engineering,Doctorate,Poor,No,No,1.4,73.4,2.8124882480637314,5.8,0,8.0,0.8,6.3,,80.2
+267,Sciences,Master's,Average,Yes,No,12.3,83.5,3.2624396255202996,7.0,2,8.0,5.4,11.0,17.949006358431735,100.0
+268,Sciences,Master's,Good,No,No,18.4,81.8,4.0,6.8,0,7.0,4.5,5.5,,100.0
+269,Engineering,Bachelor's,Good,No,No,2.0,64.6,2.2212153296053425,8.8,1,8.0,0.0,4.4,,57.2
+270,Humanities,High School,Poor,Yes,No,16.1,71.1,3.3457667894348893,6.8,2,2.0,5.8,22.4,20.215569749842814,96.2
+271,Sciences,Bachelor's,Good,Yes,No,6.4,72.2,2.815833432249781,5.6,2,4.0,1.4,7.4,21.30819958370111,75.9
+272,Humanities,Doctorate,Poor,Yes,No,2.1,89.2,3.163838117051468,8.0,2,6.0,1.5,25.5,14.352381011625637,86.2
+273,Business,High School,Average,Yes,Yes,10.5,99.6,2.9026175553903624,6.0,1,5.0,2.6,6.5,14.780629153739884,85.2
+274,Sciences,Bachelor's,Good,No,No,6.1,59.5,2.4133566092624372,6.6,0,4.0,2.8,11.1,,77.2
+275,Engineering,Bachelor's,Average,Yes,Yes,5.4,99.1,3.3829722562417084,5.3,0,6.0,1.7,3.8,11.702565240985555,90.6
+276,Engineering,Bachelor's,Average,Yes,No,5.8,87.4,2.2237843066559595,5.0,1,6.0,1.3,3.0,18.189123803070053,70.9
+277,Humanities,High School,Average,No,No,3.4,57.1,3.02650940586456,8.5,1,7.0,0.0,9.9,,71.4
+278,Business,Bachelor's,Good,No,No,7.6,76.1,3.2914732816204166,7.0,0,10.0,1.2,5.2,,77.3
+279,Engineering,Bachelor's,Average,No,Yes,9.9,97.0,2.2006122319523467,8.0,1,5.0,0.2,12.1,,85.3
+280,Sciences,Master's,Poor,No,No,16.6,66.8,3.701924307095743,6.0,0,9.0,2.1,11.6,,100.0
+281,Engineering,High School,Average,No,No,4.2,76.4,2.0451809783647854,5.3,1,5.0,0.0,8.4,,70.5
+282,Engineering,Doctorate,Poor,No,No,3.4,77.5,2.6998697397410973,5.4,0,9.0,0.0,4.3,,79.8
+283,Business,Bachelor's,Poor,No,No,10.8,88.8,2.938665246872901,7.9,6,7.0,3.2,6.3,,90.2
+284,Engineering,Doctorate,Good,No,Yes,6.0,85.3,1.7192301808230155,6.9,0,5.0,0.7,1.7,,76.0
+285,Humanities,Master's,Excellent,Yes,No,8.7,58.0,3.352178839006813,7.3,3,5.0,0.8,2.9,10.684027222563504,83.4
+286,Sciences,Master's,Average,No,Yes,12.7,81.6,2.8887718358295764,7.1,0,5.0,4.8,8.2,,86.1
+287,Sciences,Doctorate,Good,No,No,14.5,74.3,3.148307016443683,6.3,0,5.0,3.2,4.3,,88.1
+288,Engineering,High School,Average,Yes,Yes,5.9,67.6,2.5649169390794624,6.5,0,4.0,0.0,6.6,13.752827269003362,85.9
+289,Humanities,High School,Average,Yes,No,4.4,68.5,2.82303077148349,8.1,0,5.0,0.0,13.6,10.327607457687245,85.1
+290,Engineering,Master's,Good,No,No,7.2,100.0,3.5994140985237095,7.6,0,8.0,1.7,18.2,,94.9
+291,Business,High School,Average,Yes,No,7.8,87.9,3.76301896771987,4.8,0,6.0,2.9,8.5,8.41033726864522,83.7
+292,Business,High School,Average,No,No,7.8,68.0,2.8438267553329255,7.5,2,6.0,2.2,1.3,,89.4
+293,Engineering,Bachelor's,Good,Yes,No,11.2,100.0,2.8697267941896283,5.8,4,5.0,2.0,17.7,20.26212811809353,82.3
+294,Business,Doctorate,Average,Yes,No,16.3,68.3,2.069066450452103,9.3,1,9.0,5.6,10.8,19.203973635390227,73.7
+295,Sciences,Bachelor's,Average,No,No,7.6,81.8,2.382814925522008,7.3,0,6.0,1.8,2.5,,75.2
+296,Humanities,Master's,Average,No,Yes,7.7,94.6,2.8920071025037033,7.2,2,2.0,1.6,8.7,,99.0
+297,Business,Bachelor's,Good,No,No,13.8,67.7,,6.5,0,8.0,4.3,4.2,,85.5
+298,Business,Bachelor's,Average,Yes,No,6.7,99.0,2.554271849337461,5.5,2,5.0,2.3,5.1,10.514889450183382,82.2
+299,Business,High School,Good,Yes,No,4.5,88.2,3.050537681037702,7.1,2,4.0,0.7,6.3,19.550793735928334,84.5
+300,Sciences,Doctorate,Average,Yes,No,0.8,88.7,3.4765412955396844,5.7,0,3.0,0.0,7.7,10.204145271617612,95.2
+301,Business,High School,Average,No,No,5.0,67.0,3.5957398763363324,7.2,2,5.0,0.4,10.2,,85.4
+302,Sciences,Master's,Excellent,No,Yes,5.1,85.3,2.427157880909042,4.9,3,6.0,2.3,14.5,,84.9
+303,Engineering,Doctorate,Excellent,No,No,2.0,59.9,3.0190833431085133,5.8,0,1.0,0.0,15.7,,90.2
+304,Business,Master's,Good,No,No,6.8,91.7,2.779788645952331,6.5,1,6.0,1.1,8.0,,86.6
+305,Humanities,Bachelor's,Poor,Yes,No,8.9,84.9,2.748761425627996,7.1,0,8.0,0.1,6.9,14.72892742006089,69.1
+306,Business,High School,Average,No,Yes,16.1,69.7,3.796766633438848,6.0,3,8.0,2.7,3.3,,92.9
+307,Engineering,Bachelor's,Average,Yes,Yes,10.7,89.5,3.4441372176978073,6.3,0,2.0,3.4,18.1,13.148933989116005,100.0
+308,Business,Bachelor's,Good,Yes,No,4.4,72.7,2.150329278670699,5.3,0,3.0,1.2,3.8,8.221322181979058,66.3
+309,Engineering,High School,Average,No,Yes,8.3,78.0,2.484084164805811,7.2,3,3.0,1.8,15.6,,91.9
+310,Engineering,High School,Average,Yes,No,10.0,77.1,2.015859588057192,6.4,2,9.0,1.1,8.2,18.457026605421287,74.6
+311,Business,Bachelor's,Average,Yes,No,11.6,74.2,2.993886292529692,5.9,0,6.0,3.6,5.1,12.86945912092947,83.2
+312,Engineering,High School,Average,No,No,9.2,73.4,2.561821920188402,7.3,3,4.0,1.9,7.7,,72.4
+313,Humanities,Bachelor's,Excellent,Yes,Yes,4.4,85.2,3.436218678557042,6.5,1,8.0,0.9,3.5,9.577085620679526,100.0
+314,Humanities,High School,Good,No,Yes,22.3,89.2,3.208082956720262,6.7,1,4.0,5.3,4.1,,98.0
+315,Sciences,Master's,Average,No,Yes,8.2,87.6,3.262297193700935,5.9,0,8.0,2.3,0.8,,88.4
+316,Sciences,High School,Good,Yes,No,4.3,85.3,3.562225859753627,7.2,0,8.0,2.6,15.1,16.406902775433185,94.4
+317,Engineering,High School,Good,Yes,No,9.5,87.5,3.1323375520484795,9.8,0,6.0,2.9,5.6,11.313956794466913,86.0
+318,Business,Bachelor's,Average,No,No,4.2,56.3,2.60227953228843,6.9,0,7.0,0.0,0.8,,72.8
+319,Sciences,Master's,Good,No,Yes,1.6,97.6,3.503434927453966,6.5,2,5.0,0.6,4.3,,92.9
+320,Humanities,Master's,Good,Yes,No,3.8,100.0,2.853267717845753,7.0,0,5.0,1.2,3.4,18.8573063379609,71.0
+321,Engineering,High School,Good,No,No,10.3,96.7,3.505188931180541,6.5,2,5.0,4.4,6.0,,94.0
+322,Humanities,Bachelor's,Good,No,Yes,4.9,89.6,2.112450693544556,4.8,1,4.0,0.0,8.6,,82.8
+323,Sciences,High School,Average,No,No,4.3,93.1,3.430862406302678,3.5,0,3.0,2.7,6.0,,93.0
+324,Business,Doctorate,Good,Yes,No,7.8,70.8,2.3328787431466917,7.1,0,5.0,3.9,1.1,10.403596450252476,86.4
+325,Sciences,High School,Average,No,Yes,10.5,90.1,3.7672590816185094,6.8,0,8.0,0.3,4.0,,86.0
+326,Business,Bachelor's,Average,No,No,11.3,72.0,2.871482419271537,5.9,2,8.0,3.5,8.8,,88.7
+327,Sciences,Bachelor's,Good,No,No,3.5,73.8,,6.7,4,4.0,0.9,8.3,,75.4
+328,Engineering,Bachelor's,Good,Yes,No,5.5,79.0,2.4674581986894077,7.4,0,5.0,1.1,7.6,9.979526874768403,74.9
+329,Business,Master's,Average,No,No,9.9,78.5,2.7936394232693678,7.3,1,6.0,0.8,12.8,,85.3
+330,Humanities,High School,Good,Yes,Yes,3.9,88.6,2.8531042656620516,7.5,0,7.0,0.0,13.8,14.343749716380731,77.0
+331,Humanities,High School,Excellent,No,Yes,11.3,100.0,2.5523118766421726,5.4,1,5.0,0.2,8.3,,92.7
+332,Humanities,Doctorate,Good,No,Yes,9.9,100.0,3.8360502943790884,6.4,0,6.0,4.9,9.3,,100.0
+333,Engineering,Bachelor's,Average,No,Yes,1.4,91.1,2.6289101140449045,7.5,2,6.0,1.8,7.0,,90.1
+334,Business,High School,Good,No,Yes,4.6,69.7,3.1775164677321945,7.1,1,5.0,2.8,6.5,,99.0
+335,Business,Bachelor's,Excellent,No,Yes,10.1,82.9,2.3338864892054896,5.5,3,5.0,0.3,18.3,,85.9
+336,Business,High School,Poor,No,Yes,6.4,100.0,2.029960043081543,3.7,1,3.0,2.2,6.0,,84.5
+337,Sciences,Master's,Average,Yes,Yes,14.1,83.2,3.223068023673603,4.7,0,7.0,4.6,9.1,16.72211604572088,87.4
+338,Humanities,High School,Average,Yes,No,6.7,76.5,3.3800657698968664,6.1,2,4.0,0.4,3.8,8.799292170512736,89.7
+339,Humanities,Master's,Excellent,Yes,No,23.7,84.6,2.8806988819373647,6.1,1,7.0,5.6,5.9,21.216490764024954,100.0
+340,Engineering,Bachelor's,Poor,No,No,5.2,89.0,3.51177627210891,7.8,0,6.0,2.1,6.3,,88.1
+341,Sciences,Bachelor's,Excellent,No,No,3.6,76.7,3.4087798808775958,4.6,2,8.0,0.0,5.8,,83.7
+342,Sciences,Master's,Good,Yes,No,38.2,73.9,3.3006970891067304,8.8,0,4.0,8.7,2.2,14.424015257805088,100.0
+343,Sciences,Master's,Average,No,Yes,1.6,100.0,3.6555795317018713,5.3,4,1.0,1.3,10.9,,84.5
+344,Business,Master's,Excellent,Yes,No,2.6,89.4,4.0,5.6,1,7.0,0.4,8.2,11.149802322025074,88.0
+345,Engineering,Doctorate,Average,No,Yes,8.4,91.3,2.7332927429246134,7.3,4,3.0,2.9,10.5,,91.6
+346,Engineering,High School,Average,No,Yes,14.2,52.4,2.363631319259568,5.5,1,6.0,1.8,17.8,,76.8
+347,Business,Master's,Excellent,No,No,5.5,71.7,2.595119572018832,4.4,0,8.0,1.2,7.1,,83.2
+348,Sciences,Master's,Excellent,No,Yes,8.7,61.3,3.2888607661164944,6.0,2,3.0,1.8,5.4,,94.9
+349,Sciences,High School,Excellent,No,Yes,10.3,61.2,2.818789932778796,5.8,0,5.0,5.3,4.1,,82.2
+350,Sciences,Bachelor's,Average,No,No,3.3,100.0,3.8794921061404746,5.1,1,3.0,2.1,11.4,,93.8
+351,Sciences,Master's,Good,No,Yes,8.9,100.0,,6.3,1,5.0,3.2,22.7,,100.0
+352,Business,High School,Poor,No,No,3.6,64.8,2.431958404013045,4.3,3,1.0,1.3,6.2,,69.0
+353,Sciences,Bachelor's,Good,No,Yes,9.6,83.1,2.915693836836329,6.8,2,5.0,2.7,13.4,,77.2
+354,Engineering,Bachelor's,Excellent,Yes,Yes,7.8,100.0,2.126930156726331,7.1,0,3.0,3.2,11.7,17.172909602274,94.8
+355,Sciences,High School,Average,No,Yes,4.6,54.7,2.640886901868144,5.9,1,5.0,3.4,5.7,,74.1
+356,Business,High School,Average,No,No,8.3,84.3,4.0,7.4,0,7.0,1.3,7.8,,93.6
+357,Business,Master's,Good,No,No,0.7,100.0,3.0561874544959546,5.0,0,6.0,0.0,13.5,,84.3
+358,Humanities,Master's,Excellent,Yes,No,11.1,92.6,2.972704017484787,7.1,1,6.0,3.5,12.1,18.838648198247853,89.6
+359,Business,Bachelor's,Average,No,Yes,8.0,92.2,2.027549837040838,6.9,1,7.0,0.4,9.1,,88.8
+360,Engineering,High School,Excellent,No,No,8.4,61.2,3.2670047106360127,6.9,1,6.0,1.8,27.9,,82.2
+361,Engineering,Bachelor's,Poor,Yes,No,2.7,81.7,2.621249364574291,6.8,0,2.0,0.1,8.7,12.953407148362688,74.7
+362,Engineering,Master's,Average,Yes,Yes,2.5,94.9,3.9600192377426087,5.6,1,7.0,0.7,6.3,12.522825357340064,92.2
+363,Engineering,Bachelor's,Average,No,No,1.5,92.5,3.315521995540399,6.7,0,8.0,0.7,4.5,,86.6
+364,Business,High School,Poor,No,No,9.1,100.0,2.5209379728526495,7.1,2,3.0,3.0,12.0,,82.7
+365,Engineering,High School,Average,Yes,No,9.4,87.6,2.899234539078722,7.8,3,8.0,0.9,14.5,16.29108933054437,68.5
+366,Humanities,High School,Excellent,No,Yes,5.3,89.7,3.3313495404905384,5.6,1,4.0,0.4,24.2,,84.8
+367,Humanities,Master's,Good,Yes,Yes,7.8,73.5,3.1326481262531596,6.2,1,4.0,3.8,3.5,16.94313599149911,84.4
+368,Engineering,Bachelor's,Excellent,No,No,6.7,99.6,2.9251476937394147,8.7,4,6.0,0.0,19.4,,83.5
+369,Business,Doctorate,Poor,No,Yes,2.3,87.0,3.237066280474399,5.7,0,2.0,0.0,13.3,,82.3
+370,Humanities,Bachelor's,Average,No,Yes,6.9,86.9,3.434994121939483,6.6,1,4.0,2.6,16.5,,89.3
+371,Sciences,Bachelor's,Good,No,Yes,10.1,98.2,2.1138540768324074,7.8,0,5.0,3.9,3.9,,88.1
+372,Sciences,Master's,Average,No,No,29.5,66.5,2.9346780570615336,8.3,2,5.0,7.8,7.8,,100.0
+373,Business,Doctorate,Average,No,No,2.2,66.6,3.296949081806678,5.5,3,5.0,1.1,10.5,,82.3
+374,Sciences,Bachelor's,Good,No,No,4.3,91.2,3.453224547569941,7.6,1,8.0,3.0,13.3,,88.6
+375,Humanities,Master's,Good,Yes,Yes,7.3,76.3,2.9533112872505645,6.1,1,7.0,1.4,6.0,18.813191353331444,77.4
+376,Engineering,Bachelor's,Excellent,No,Yes,11.2,87.6,3.1955615904901378,4.7,0,5.0,2.7,5.6,,92.1
+377,Business,Bachelor's,Good,No,Yes,5.5,86.0,2.594711616392919,6.2,1,6.0,1.4,4.8,,83.7
+378,Business,Master's,Good,Yes,Yes,8.4,100.0,3.0804920821382695,7.2,2,4.0,3.4,9.6,17.831340236045342,90.6
+379,Sciences,Doctorate,Good,Yes,No,4.6,100.0,3.168864711990551,7.3,0,2.0,1.5,4.4,14.886803882436565,96.6
+380,Engineering,Master's,Average,Yes,Yes,12.4,53.0,3.0078219201897523,7.3,2,3.0,5.3,7.0,12.07583490756405,92.4
+381,Sciences,High School,Average,No,Yes,3.7,82.1,2.5889182439045886,7.3,2,9.0,2.4,32.2,,90.6
+382,Humanities,High School,Excellent,Yes,No,14.0,79.4,2.800194878604845,5.4,2,2.0,1.7,13.1,19.50668370806214,88.9
+383,Engineering,High School,Average,No,No,5.8,99.3,2.681576227795774,7.8,3,9.0,1.5,13.5,,81.3
+384,Sciences,High School,Poor,No,No,8.1,87.4,2.7545156195047373,6.4,1,5.0,3.8,5.7,,79.7
+385,Engineering,Bachelor's,Poor,No,Yes,4.1,67.1,2.838677335818108,5.3,2,4.0,1.5,5.1,,88.7
+386,Sciences,Doctorate,Good,Yes,No,6.7,91.6,3.008105187712158,6.6,2,7.0,0.0,5.1,6.982113094822124,74.9
+387,Humanities,Doctorate,Average,No,No,7.2,96.5,2.971554196947509,8.2,1,7.0,2.4,9.5,,97.6
+388,Business,High School,Good,Yes,No,1.5,67.5,2.188336133849605,6.7,2,4.0,0.0,6.6,15.94240586766002,67.7
+389,Engineering,Bachelor's,Good,No,Yes,14.9,96.1,3.134845876811865,7.0,1,3.0,6.1,1.4,,100.0
+390,Engineering,Bachelor's,Poor,No,No,6.8,81.0,2.700003590758215,5.9,0,6.0,2.4,16.9,,85.7
+391,Engineering,Bachelor's,Good,No,No,6.4,100.0,2.3542057063598536,5.5,2,5.0,0.2,3.0,,84.1
+392,Sciences,High School,Average,Yes,No,10.0,92.7,3.1765603263322477,5.2,1,5.0,3.5,5.3,13.761812729772235,93.5
+393,Business,Bachelor's,Poor,Yes,No,10.3,89.2,3.172094661651797,8.5,1,8.0,0.7,8.4,18.789455254920632,82.7
+394,Humanities,Bachelor's,Average,No,Yes,3.0,96.2,2.5710995816499786,5.7,2,5.0,0.0,11.0,,80.6
+395,Humanities,High School,Average,No,Yes,1.7,95.2,2.943492985265565,6.9,0,7.0,0.0,21.3,,75.1
+396,Engineering,Bachelor's,Average,No,Yes,8.7,80.1,3.0591079326874806,5.7,2,7.0,4.6,20.0,,93.1
+397,Humanities,Bachelor's,Good,No,Yes,6.4,79.6,2.6540299333089155,7.6,3,6.0,0.4,10.5,,85.1
+398,Humanities,Master's,Average,Yes,No,5.8,75.7,3.148828264362191,4.7,2,4.0,1.8,8.5,4.327966845502644,86.5
+399,Humanities,High School,Poor,Yes,Yes,1.9,78.7,2.867635590102857,6.7,1,6.0,0.0,4.9,19.63678047596448,81.3
+400,Business,Bachelor's,Average,No,No,13.3,65.9,3.708690623708107,5.7,2,4.0,1.9,8.7,,88.0
+401,Business,Bachelor's,Good,No,No,6.3,73.7,3.8952393552195765,6.2,3,3.0,4.0,2.1,,95.8
+402,Engineering,High School,Good,No,No,15.3,87.9,2.8602604909777103,7.1,1,4.0,6.8,2.0,,92.5
+403,Engineering,Bachelor's,Average,Yes,No,4.2,86.5,2.460759233349615,5.5,1,4.0,2.1,6.7,16.914842946247255,78.7
+404,Sciences,Bachelor's,Average,No,No,14.6,78.1,3.3645252152372156,5.8,2,4.0,5.6,7.1,,86.5
+405,Humanities,Bachelor's,Excellent,No,No,20.6,85.1,3.555257165928612,7.6,0,2.0,3.5,0.4,,100.0
+406,Sciences,High School,Average,No,No,5.8,87.2,3.424602689227832,5.8,3,3.0,0.0,7.1,,94.3
+407,Engineering,Master's,Average,Yes,No,12.1,100.0,3.108909305494769,7.1,4,5.0,3.6,11.4,10.72417123840855,100.0
+408,Sciences,High School,Average,No,Yes,1.7,89.3,3.16044713028615,8.1,3,7.0,1.5,12.2,,91.7
+409,Business,High School,Poor,No,No,4.9,77.7,4.0,5.0,1,6.0,1.5,10.1,,86.8
+410,Sciences,Bachelor's,Excellent,No,No,19.6,86.6,2.346492999093524,6.7,1,4.0,3.6,2.3,,84.7
+411,Engineering,Bachelor's,Excellent,No,No,9.0,71.7,3.7227150802336717,6.4,1,7.0,3.7,3.7,,83.7
+412,Humanities,Bachelor's,Average,Yes,Yes,12.5,94.4,2.681035244563533,7.0,1,3.0,4.1,16.2,9.907168059161496,94.3
+413,Engineering,High School,Average,No,No,12.4,77.5,3.4304810903721177,5.6,1,4.0,3.1,20.7,,81.4
+414,Engineering,Master's,Good,No,No,14.5,69.0,2.6178973358523594,7.2,0,6.0,5.1,10.4,,99.7
+415,Business,Master's,Average,Yes,Yes,10.0,78.3,2.312462409267689,6.3,1,4.0,0.0,16.5,21.237410180566012,80.5
+416,Sciences,High School,Good,Yes,Yes,15.4,91.4,1.8683652002183757,8.2,3,3.0,3.8,9.9,9.943437294681381,84.7
+417,Business,Master's,Average,Yes,Yes,7.4,90.7,3.3027017428803447,6.8,3,4.0,2.3,3.6,9.48706594780069,100.0
+418,Business,Master's,Average,Yes,Yes,9.2,84.5,2.2734098287689215,5.7,2,7.0,2.2,1.8,14.427058383780889,78.7
+419,Humanities,Bachelor's,Average,No,No,10.2,76.8,2.6267760623343426,8.2,1,3.0,0.0,7.7,,87.6
+420,Business,Bachelor's,Good,Yes,No,7.0,83.4,2.9326512637917337,7.8,3,5.0,0.0,3.4,14.606163887249446,78.9
+421,Sciences,High School,Average,No,No,8.2,80.1,2.7692174777456326,5.4,4,2.0,2.4,8.7,,96.4
+422,Business,Bachelor's,Good,No,No,3.2,82.9,1.5409266356936187,5.8,0,1.0,0.0,4.4,,65.6
+423,Engineering,Bachelor's,Average,Yes,Yes,13.8,77.8,3.007168610466298,3.6,3,6.0,1.8,9.8,15.259340514960108,89.4
+424,Sciences,Bachelor's,Average,No,No,0.2,55.8,2.9799779107577336,8.2,1,3.0,0.5,7.9,,76.5
+425,Business,Bachelor's,Excellent,Yes,Yes,9.9,93.7,2.1632390285644245,5.1,1,6.0,1.8,32.6,14.467276985124293,89.7
+426,Humanities,Master's,Excellent,Yes,Yes,5.7,85.8,2.926725397780796,6.6,3,9.0,1.3,0.6,22.651989742142355,89.3
+427,Engineering,High School,Good,No,No,5.5,72.1,2.9945420943565586,7.9,4,4.0,0.0,1.9,,84.1
+428,Humanities,Doctorate,Good,No,No,1.6,87.0,2.3935493861900325,7.9,1,9.0,0.0,8.4,,80.1
+429,Business,Bachelor's,Average,No,No,4.1,85.6,,7.9,2,10.0,1.5,9.4,,89.7
+430,Humanities,High School,Poor,No,Yes,6.0,62.6,2.6922392498509224,5.4,0,6.0,1.7,7.6,,79.6
+431,Business,High School,Good,No,Yes,2.7,65.3,3.5611886144395513,8.3,0,5.0,1.6,5.1,,79.2
+432,Sciences,Master's,Average,Yes,No,2.9,68.1,3.3324699891365785,5.6,3,9.0,1.4,9.8,11.678389506986926,83.1
+433,Sciences,Bachelor's,Good,No,No,7.6,91.3,2.8548219554317624,6.1,0,3.0,2.1,7.5,,92.6
+434,Business,Bachelor's,Average,No,No,7.9,74.1,2.4172156794096344,5.4,3,3.0,3.1,12.3,,75.8
+435,Humanities,Bachelor's,Good,Yes,Yes,2.7,65.8,2.9535338694837105,7.0,1,6.0,2.5,6.5,15.59201078485065,83.1
+436,Engineering,Master's,Good,Yes,No,9.6,56.1,2.424630634452747,6.8,1,9.0,2.5,14.0,17.148966393797902,65.1
+437,Sciences,Bachelor's,Poor,No,No,2.7,78.0,,7.4,2,5.0,2.1,5.0,,86.9
+438,Sciences,Bachelor's,Poor,No,No,6.4,69.8,2.8770052940721875,8.2,1,8.0,1.1,5.5,,87.6
+439,Humanities,High School,Good,No,No,4.5,77.1,2.276783417785558,5.9,0,5.0,0.6,17.9,,71.4
+440,Sciences,Bachelor's,Good,No,Yes,12.0,100.0,2.6476661174671507,7.3,0,8.0,1.1,8.4,,80.6
+441,Business,Doctorate,Excellent,No,Yes,1.4,49.9,3.125935063975062,7.3,2,4.0,0.0,20.8,,50.8
+442,Engineering,Doctorate,Good,No,Yes,2.5,77.6,2.5495050743150394,6.1,1,6.0,0.1,5.0,,80.7
+443,Sciences,High School,Good,No,No,4.9,90.7,3.232483629488919,7.9,1,3.0,1.6,4.7,,98.7
+444,Business,High School,Excellent,No,Yes,3.2,100.0,3.076388279748478,7.5,1,3.0,0.6,9.8,,87.1
+445,Sciences,Bachelor's,Average,No,Yes,2.4,60.0,3.1079181901955075,5.6,0,3.0,1.0,11.0,,79.8
+446,Engineering,Bachelor's,Excellent,No,No,5.8,68.2,2.654795779474162,8.3,1,6.0,0.0,4.0,,82.7
+447,Sciences,Doctorate,Average,No,Yes,6.4,78.8,2.5544360051217443,7.0,0,8.0,3.6,2.1,,87.8
+448,Business,Master's,Excellent,No,No,3.3,93.1,2.926008815056618,4.9,0,8.0,1.2,14.8,,92.9
+449,Business,Bachelor's,Good,No,Yes,6.8,69.8,3.686233195202086,5.6,1,4.0,1.6,1.0,,92.5
+450,Business,Master's,Average,No,Yes,8.9,76.4,2.299634240100955,5.6,3,4.0,1.4,3.4,,78.0
+451,Sciences,High School,Good,No,No,2.4,80.4,2.1201826107271327,6.7,1,4.0,1.7,7.8,,74.9
+452,Engineering,High School,Good,No,Yes,2.7,63.7,3.0472066244462788,5.5,1,5.0,0.4,6.4,,83.7
+453,Engineering,Bachelor's,Poor,Yes,No,12.0,76.0,2.7539954735653858,6.4,1,4.0,1.1,6.3,9.269722295732183,79.3
+454,Humanities,Bachelor's,Average,No,No,10.9,100.0,3.1770967367713983,7.9,1,5.0,1.9,3.1,,92.9
+455,Engineering,High School,Good,Yes,No,6.7,79.0,2.2922021085879685,6.4,2,3.0,2.7,3.3,9.889064247158666,80.4
+456,Humanities,Master's,Excellent,No,Yes,7.9,77.5,2.525970172246301,7.0,0,6.0,1.6,14.3,,90.9
+457,Engineering,High School,Good,No,Yes,1.8,99.2,2.7485708763796093,6.5,1,2.0,1.1,9.6,,83.5
+458,Business,Bachelor's,Average,Yes,No,7.3,46.9,2.337902960773356,6.9,1,7.0,0.1,7.0,16.192103452148576,76.6
+459,Humanities,Bachelor's,Average,Yes,Yes,4.7,66.9,3.673151737907603,8.6,3,7.0,0.7,9.6,14.954291326406677,79.4
+460,Business,Doctorate,Good,No,No,10.7,93.7,2.5781076211025606,7.3,0,4.0,0.6,8.1,,79.4
+461,Sciences,High School,Average,No,Yes,5.2,85.6,2.954505808868092,7.5,0,10.0,1.3,12.0,,86.8
+462,Humanities,Bachelor's,Good,Yes,Yes,0.5,78.6,2.547082414623659,6.4,0,4.0,0.0,4.6,13.732334422492805,51.3
+463,Sciences,Bachelor's,Average,Yes,Yes,6.7,70.0,2.630899628636222,5.3,1,8.0,1.3,11.4,8.699766084450701,74.3
+464,Humanities,Bachelor's,Poor,No,Yes,3.4,60.0,2.793021286098203,8.4,3,6.0,1.4,3.1,,69.7
+465,Engineering,Bachelor's,Good,Yes,No,2.4,85.7,3.083799555578553,7.5,2,4.0,1.2,8.0,10.135146394389153,90.2
+466,Humanities,High School,Average,No,Yes,8.8,100.0,2.6879978208141044,5.1,1,3.0,1.4,5.8,,79.9
+467,Sciences,Doctorate,Average,Yes,No,5.3,87.5,3.1678770797578193,7.1,0,3.0,1.8,12.1,19.00462529457696,89.6
+468,Humanities,High School,Excellent,No,No,3.8,67.3,3.220894723061847,5.5,3,6.0,4.1,0.7,,89.4
+469,Humanities,Doctorate,Average,Yes,No,15.0,86.4,4.0,6.9,1,5.0,4.6,10.9,18.402844415384298,100.0
+470,Sciences,Bachelor's,Good,Yes,Yes,15.6,69.5,2.342501675040032,7.0,1,7.0,2.8,14.9,16.55632895022068,84.0
+471,Business,High School,Good,No,No,5.5,100.0,2.4787807679897504,7.0,3,6.0,0.6,5.8,,82.0
+472,Business,Master's,Average,No,Yes,9.1,76.9,2.3291478448684564,5.9,1,6.0,2.0,5.3,,83.3
+473,Engineering,Bachelor's,Poor,Yes,Yes,5.5,90.3,3.3063641176420093,7.2,3,3.0,0.1,8.6,18.592116958484635,90.8
+474,Sciences,Master's,Excellent,Yes,Yes,6.3,73.5,2.6389862520410365,5.7,1,6.0,2.7,8.6,11.212878485296105,92.6
+475,Sciences,High School,Good,No,No,2.4,94.3,3.3319097067479913,5.3,2,6.0,0.1,13.7,,99.3
+476,Humanities,Bachelor's,Average,No,No,7.2,80.2,2.470499607835823,6.1,1,4.0,1.5,3.7,,88.1
+477,Business,Bachelor's,Average,No,No,5.2,70.7,2.577529151506677,6.1,3,6.0,1.6,5.8,,74.6
+478,Sciences,Master's,Average,Yes,Yes,6.4,77.6,2.9431245298745883,6.6,2,3.0,1.5,4.7,20.956252473047083,94.9
+479,Humanities,Doctorate,Excellent,No,Yes,1.0,71.6,3.032096659052997,8.2,4,4.0,2.6,1.4,,98.3
+480,Sciences,High School,Good,Yes,No,3.9,80.2,3.8196794632832547,6.1,0,8.0,2.2,6.9,12.697857895607543,85.1
+481,Engineering,High School,Average,No,Yes,1.0,91.6,2.5909075571971156,5.9,1,4.0,1.1,4.2,,89.1
+482,Engineering,Bachelor's,Poor,Yes,No,5.7,88.0,2.4900152236448725,5.6,0,3.0,2.0,9.3,2.0,87.4
+483,Business,Bachelor's,Good,No,Yes,14.3,90.9,3.390139711546756,7.1,1,9.0,2.6,5.6,,84.7
+484,Sciences,Master's,Good,No,No,13.5,100.0,3.203791316698207,7.3,3,6.0,1.8,7.0,,100.0
+485,Sciences,Bachelor's,Good,No,Yes,6.1,88.4,2.788727129672903,6.1,2,6.0,0.4,6.2,,73.9
+486,Humanities,Bachelor's,Average,No,No,9.7,90.9,2.1207739587625207,8.7,0,3.0,1.4,9.7,,74.7
+487,Humanities,Master's,Good,No,No,9.8,88.0,3.2175211246005277,7.0,0,3.0,3.0,6.0,,95.6
+488,Sciences,High School,Average,No,Yes,13.2,99.6,2.9331436326542306,4.1,1,1.0,2.3,2.5,,90.9
+489,Humanities,Bachelor's,Good,No,No,2.1,69.8,2.9031880425685435,6.6,1,4.0,0.4,5.4,,78.1
+490,Humanities,Master's,Average,No,No,6.7,94.9,1.9507078123103905,7.9,3,5.0,2.0,10.3,,72.4
+491,Humanities,Bachelor's,Average,No,Yes,12.1,89.9,,6.5,4,6.0,3.3,17.2,,96.4
+492,Business,Master's,Average,No,No,10.1,84.1,2.3434572800797677,7.0,0,3.0,4.8,6.9,,93.4
+493,Humanities,Bachelor's,Average,Yes,No,18.4,87.0,2.3236815354700036,4.8,0,7.0,5.2,5.5,14.175790052930966,91.4
+494,Sciences,High School,Average,No,Yes,8.1,94.3,2.7749971824354787,7.2,1,5.0,2.5,7.6,,92.9
+495,Business,Master's,Average,No,No,12.0,59.7,3.3057640615808435,7.1,4,6.0,6.9,8.7,,87.8
+496,Sciences,Doctorate,Excellent,No,No,16.1,85.1,3.25812351122163,5.1,1,7.0,1.5,30.2,,100.0
+497,Humanities,Bachelor's,Average,Yes,Yes,8.0,81.3,3.853034472842896,7.4,2,2.0,3.5,1.5,17.5891322506765,100.0
+498,Sciences,Doctorate,Poor,No,Yes,14.4,88.2,3.073177115641998,4.4,3,2.0,5.7,13.7,,100.0
+499,Business,Bachelor's,Excellent,No,No,5.5,64.3,1.777457117614751,8.8,1,7.0,1.7,17.6,,79.0
+500,Engineering,High School,Average,No,No,11.7,80.1,3.5997160354482802,6.6,2,4.0,3.0,2.1,,91.2
+501,Business,High School,Excellent,No,No,9.2,68.2,3.1258297929658516,7.7,1,9.0,2.5,10.0,,83.4
+502,Sciences,Bachelor's,Good,Yes,No,8.9,74.7,2.120069663050649,5.1,1,5.0,0.5,8.2,15.01911252053569,80.5
+503,Sciences,Bachelor's,Poor,Yes,No,27.2,59.4,3.08988744754486,8.2,0,7.0,1.0,5.2,14.808535168912583,88.2
+504,Engineering,Doctorate,Good,No,No,20.2,81.4,3.1950986693330656,8.2,2,2.0,4.7,1.9,,96.6
+505,Engineering,High School,Good,No,Yes,10.2,82.3,3.4147992606653985,7.6,2,3.0,4.4,1.5,,100.0
+506,Business,Master's,Good,No,Yes,8.2,78.9,1.8469189292471049,5.4,1,7.0,0.6,2.8,,62.6
+507,Sciences,Bachelor's,Average,Yes,Yes,9.7,79.5,2.6024849359102786,7.1,1,7.0,0.5,7.9,11.79210352008681,78.0
+508,Engineering,Master's,Average,No,No,5.2,55.7,2.84504752624336,6.6,0,2.0,2.7,5.3,,78.7
+509,Business,Bachelor's,Average,No,No,10.3,55.7,2.256447353044611,6.3,1,5.0,3.2,7.6,,87.4
+510,Engineering,High School,Good,No,Yes,5.5,68.0,1.7723288284343008,7.3,2,4.0,2.6,3.8,,69.9
+511,Engineering,Master's,Poor,Yes,Yes,6.8,76.4,2.911687394570716,6.2,0,5.0,1.3,21.7,12.785439063122986,74.8
+512,Business,Master's,Good,No,No,7.9,88.2,2.5932087342958465,6.8,1,5.0,2.3,8.3,,91.0
+513,Engineering,Master's,Average,Yes,Yes,10.3,67.1,,8.5,1,4.0,2.4,1.5,18.322432884803334,80.7
+514,Engineering,High School,Average,No,No,1.8,100.0,3.0963663380108404,5.7,0,5.0,1.4,4.1,,82.2
+515,Engineering,Master's,Poor,No,No,6.0,77.6,1.9443183204484094,8.3,1,7.0,0.0,4.2,,73.0
+516,Engineering,Doctorate,Average,Yes,Yes,3.0,100.0,2.438218505135164,5.7,0,6.0,2.4,5.8,22.038816227278136,86.8
+517,Business,Bachelor's,Average,No,Yes,5.8,98.6,2.8605884118401517,5.9,0,8.0,1.7,17.7,,87.9
+518,Humanities,Bachelor's,Poor,No,No,6.2,72.1,2.1703528148535427,5.2,3,4.0,1.6,6.2,,69.4
+519,Business,High School,Excellent,No,Yes,8.0,81.0,2.782632013091708,7.7,0,7.0,3.1,3.5,,84.1
+520,Business,High School,Excellent,No,No,8.3,83.0,2.189933207563244,5.6,2,5.0,0.5,28.2,,72.5
+521,Sciences,Master's,Average,No,No,24.4,73.8,3.140318691281523,5.7,0,2.0,1.9,7.0,,96.0
+522,Sciences,Master's,Average,Yes,Yes,10.0,81.8,2.938209685484758,5.8,1,6.0,0.4,3.4,12.766534550035818,89.9
+523,Humanities,Master's,Excellent,No,No,4.4,100.0,3.0760558254919994,4.1,5,5.0,1.0,18.2,,93.4
+524,Humanities,High School,Good,No,Yes,5.8,80.0,3.7843485306254276,9.1,1,2.0,4.2,4.4,,100.0
+525,Humanities,Master's,Average,No,No,9.1,59.8,2.7856936632197407,5.5,2,2.0,1.4,6.0,,77.7
+526,Business,High School,Average,Yes,No,8.6,84.3,2.886381628212005,6.6,2,8.0,3.1,1.6,13.770579922402133,82.9
+527,Business,Bachelor's,Poor,No,No,6.7,80.9,2.900414542901643,7.3,3,8.0,2.5,24.6,,89.4
+528,Sciences,Bachelor's,Good,No,No,6.0,79.0,,5.6,1,10.0,2.3,5.2,,93.5
+529,Humanities,Bachelor's,Excellent,Yes,No,9.2,100.0,3.385350001349276,6.7,1,4.0,2.2,18.3,13.231292400353775,91.6
+530,Sciences,High School,Average,No,No,2.6,87.8,2.7401180890349908,5.6,2,7.0,2.3,4.7,,79.2
+531,Sciences,High School,Average,Yes,Yes,9.2,79.2,2.9756570921284755,6.3,2,3.0,2.1,2.0,18.332757268180984,93.4
+532,Engineering,High School,Good,Yes,No,8.7,94.3,3.4653347073602134,6.2,0,1.0,1.0,12.0,11.579841614012896,98.5
+533,Business,Bachelor's,Average,Yes,No,4.3,80.3,3.2461525134067193,5.2,2,6.0,0.0,5.3,13.842660670601894,93.2
+534,Humanities,Master's,Poor,No,Yes,13.9,71.1,2.738288431659927,8.4,1,1.0,2.8,1.2,,99.5
+535,Sciences,High School,Average,Yes,No,5.5,78.3,2.7009004167631185,5.9,1,3.0,1.9,14.3,17.282862021109423,85.0
+536,Sciences,High School,Poor,No,Yes,20.3,66.9,2.12164447782308,6.7,2,7.0,7.0,11.7,,88.8
+537,Business,Master's,Excellent,Yes,No,18.9,71.9,3.1643277896099513,7.5,0,5.0,8.2,8.8,33.6142349135671,87.3
+538,Engineering,Bachelor's,Average,Yes,No,4.2,95.6,3.2179594028505125,5.9,0,2.0,0.0,14.2,19.606218923459085,89.3
+539,Sciences,Master's,Good,No,No,18.6,100.0,,3.9,0,5.0,5.7,5.9,,94.6
+540,Engineering,High School,Excellent,Yes,Yes,3.9,73.8,2.0472516923200654,6.7,1,5.0,0.0,2.6,13.879408331943592,77.3
+541,Engineering,Master's,Excellent,No,No,4.8,99.4,2.5803306773524186,7.7,1,10.0,2.8,6.6,,51.3
+542,Sciences,Master's,Poor,No,Yes,6.4,62.9,2.7074663212816823,7.4,0,4.0,1.4,20.3,,69.6
+543,Sciences,High School,Average,No,No,9.0,81.0,2.394108459126624,7.4,1,7.0,1.8,3.5,,78.0
+544,Business,Bachelor's,Excellent,Yes,Yes,3.7,89.5,3.0345805640874435,5.8,3,6.0,0.0,15.9,15.082926258997313,82.7
+545,Business,High School,Good,No,No,11.1,90.2,2.2855656951623162,5.2,1,4.0,2.5,17.9,,98.2
+546,Engineering,Doctorate,Poor,Yes,Yes,6.7,82.2,2.496105421686066,6.3,2,6.0,3.8,4.7,3.0712226873987554,84.9
+547,Business,Bachelor's,Good,Yes,No,18.0,55.1,3.1397150646929726,8.6,3,6.0,6.8,8.5,16.410636968732135,87.4
+548,Business,High School,Average,Yes,No,4.5,100.0,2.872953015858783,7.3,1,1.0,0.2,14.6,5.757824535171245,83.7
+549,Sciences,High School,Good,Yes,No,6.3,75.6,2.3812063444111327,7.8,1,10.0,1.3,23.3,14.824829257278642,75.7
+550,Business,High School,Excellent,No,Yes,2.2,84.4,2.834727006656585,9.9,0,4.0,1.6,13.1,,89.7
+551,Humanities,Doctorate,Average,No,No,4.9,87.7,3.4178615109894372,6.4,3,5.0,3.4,6.6,,83.9
+552,Business,Doctorate,Average,No,No,5.4,74.9,,5.7,3,1.0,2.4,11.8,,95.4
+553,Business,Bachelor's,Good,No,No,0.8,88.3,4.0,6.8,4,6.0,0.0,28.5,,86.6
+554,Business,Master's,Good,No,No,2.5,100.0,3.3165241633245874,7.2,1,8.0,0.6,4.1,,97.0
+555,Humanities,High School,Average,Yes,No,14.9,90.8,3.9152357354323697,5.3,1,6.0,3.1,36.1,14.206914237154729,100.0
+556,Business,Master's,Excellent,No,Yes,20.6,94.2,3.6829893692556928,5.6,1,8.0,4.8,11.7,,100.0
+557,Engineering,Bachelor's,Average,Yes,No,4.2,83.3,2.6045740075530324,5.9,0,2.0,2.4,8.2,11.793780538398504,76.3
+558,Humanities,High School,Excellent,Yes,No,16.6,97.4,3.6122720081900352,7.0,2,6.0,4.9,10.8,19.90488129370442,100.0
+559,Humanities,Bachelor's,Average,Yes,Yes,2.7,67.9,3.312758798538812,5.9,2,8.0,0.5,8.0,9.258198125681567,91.1
+560,Engineering,High School,Excellent,No,No,6.5,88.5,3.328830085328105,5.5,2,3.0,0.0,9.0,,98.5
+561,Business,High School,Good,Yes,No,8.0,89.9,3.4127854483606272,5.6,1,5.0,1.5,13.1,14.391137276271415,89.4
+562,Sciences,Bachelor's,Good,Yes,No,9.6,95.2,2.4708618606244515,6.7,3,5.0,1.5,19.4,20.167054926818302,78.1
+563,Engineering,Bachelor's,Average,No,No,15.2,65.3,3.154021457613572,6.3,3,7.0,5.0,1.6,,85.6
+564,Humanities,High School,Good,Yes,No,4.1,86.5,2.161168922527767,9.0,1,5.0,1.9,6.9,25.08585474349872,81.8
+565,Sciences,Master's,Good,No,No,3.8,96.3,2.5590246547926334,7.7,0,9.0,2.1,10.5,,75.1
+566,Sciences,Bachelor's,Good,Yes,No,8.5,88.5,2.1359863462274213,3.4,2,4.0,2.3,12.3,22.209490700971216,77.9
+567,Humanities,Bachelor's,Average,No,No,6.6,85.0,3.066045513035475,6.6,2,5.0,1.7,3.6,,88.0
+568,Sciences,Bachelor's,Good,Yes,No,6.4,90.8,2.2898194496619575,7.2,2,8.0,2.3,1.8,14.348094948547573,76.0
+569,Sciences,Bachelor's,Good,No,Yes,13.0,93.3,3.2020150332059054,6.6,2,5.0,2.2,2.4,,98.6
+570,Humanities,Bachelor's,Excellent,No,No,8.4,80.6,1.8961591650745415,8.0,0,6.0,6.3,5.0,,85.1
+571,Sciences,Master's,Average,No,Yes,7.4,91.5,2.5699971422948615,7.0,3,2.0,2.7,8.6,,94.3
+572,Humanities,High School,Good,No,Yes,6.5,72.0,3.407071429903566,4.4,3,7.0,3.1,1.8,,82.5
+573,Engineering,Bachelor's,Average,Yes,Yes,5.4,84.7,2.208645121923182,7.8,2,4.0,1.3,7.3,8.410523243473317,80.5
+574,Engineering,Master's,Good,No,No,8.3,78.7,2.404748553604053,7.2,2,4.0,5.2,7.8,,87.1
+575,Business,Master's,Average,Yes,No,10.9,81.0,2.149686367515547,6.5,3,5.0,1.8,5.3,14.005995306182948,76.2
+576,Engineering,Master's,Average,Yes,Yes,3.4,79.3,2.0776275115355216,5.5,3,7.0,2.8,5.4,14.069921287442874,80.3
+577,Engineering,Master's,Excellent,No,No,4.4,58.4,2.914841488711047,6.4,2,5.0,1.4,13.3,,76.9
+578,Business,Bachelor's,Excellent,Yes,Yes,6.4,100.0,2.9867828698329055,6.3,5,7.0,1.8,4.6,18.11574088436834,98.1
+579,Sciences,Bachelor's,Average,No,Yes,7.6,83.6,3.0442793673314115,6.2,2,3.0,1.9,7.6,,93.5
+580,Sciences,Doctorate,Poor,Yes,No,1.7,86.7,3.350967376129491,5.2,3,3.0,0.0,11.5,6.052613920391887,78.5
+581,Humanities,Master's,Excellent,No,No,18.9,88.1,2.73271678152279,4.9,1,6.0,10.7,9.9,,100.0
+582,Business,Bachelor's,Poor,No,Yes,4.9,100.0,2.868341368352851,4.3,1,10.0,3.2,6.2,,92.0
+583,Sciences,Bachelor's,Average,No,No,9.0,64.6,2.172049473748615,7.4,2,9.0,1.3,3.8,,69.8
+584,Sciences,Bachelor's,Average,No,Yes,7.9,65.7,2.6936859246222173,6.8,2,5.0,4.8,9.3,,90.8
+585,Sciences,Bachelor's,Good,No,No,12.6,90.2,3.4807006348886076,5.3,3,4.0,4.9,6.3,,100.0
+586,Humanities,High School,Average,No,No,6.6,90.4,,5.2,2,7.0,1.9,20.6,,77.7
+587,Sciences,High School,Good,No,Yes,4.2,72.1,3.4872889462115775,9.7,5,2.0,0.7,10.5,,92.1
+588,Business,Bachelor's,Good,Yes,No,5.5,73.2,3.5036509065634363,6.1,0,5.0,4.0,8.3,12.510111561859379,93.9
+589,Engineering,High School,Good,No,No,8.6,100.0,3.013967740812573,4.6,2,1.0,1.4,5.2,,83.1
+590,Engineering,Bachelor's,Average,No,No,10.7,91.3,3.280659562571751,5.4,1,8.0,3.9,4.7,,90.5
+591,Business,High School,Good,Yes,No,10.3,89.7,3.795750127922177,5.8,1,4.0,0.0,8.5,20.533490217714338,97.0
+592,Sciences,High School,Average,No,Yes,11.1,66.6,3.252589592324003,6.4,0,3.0,4.5,3.1,,98.8
+593,Sciences,High School,Excellent,No,No,5.3,78.8,2.802359754637636,7.4,2,5.0,2.0,18.0,,72.2
+594,Business,Bachelor's,Average,No,Yes,2.3,84.8,3.130862584338931,5.5,0,2.0,1.2,16.9,,91.5
+595,Sciences,Doctorate,Excellent,Yes,Yes,1.5,68.8,2.9527424290332602,4.9,1,5.0,0.5,10.4,21.381953585867258,86.0
+596,Engineering,Bachelor's,Good,No,No,4.8,80.3,1.9810824916388763,8.3,1,2.0,1.7,15.5,,84.9
+597,Business,Master's,Poor,No,No,8.9,83.0,1.9162490761959867,7.6,2,6.0,2.8,3.4,,76.5
+598,Sciences,Bachelor's,Average,No,No,7.3,81.4,3.7007519063518153,8.2,2,6.0,1.5,8.1,,86.3
+599,Sciences,High School,Good,No,Yes,7.4,83.6,3.288455649607259,5.5,4,8.0,0.4,3.9,,87.9
+600,Humanities,High School,Average,No,Yes,2.0,71.9,2.944854826219804,4.1,1,8.0,1.8,6.5,,77.1
+601,Humanities,Bachelor's,Average,Yes,No,5.9,100.0,1.8913536421927943,4.6,1,6.0,3.1,27.5,13.741281223654003,73.1
+602,Engineering,Master's,Average,No,No,6.1,66.1,2.7207383206170337,6.2,0,1.0,1.2,3.2,,92.1
+603,Sciences,Master's,Poor,No,No,5.3,94.6,3.0021303527238232,7.5,1,3.0,2.8,14.3,,88.5
+604,Humanities,Bachelor's,Excellent,Yes,No,4.3,61.4,2.9794994728410287,7.6,1,4.0,2.1,1.6,14.974312872805733,98.1
+605,Business,High School,Good,No,Yes,2.0,67.7,2.007606380616693,6.5,1,6.0,0.2,9.7,,70.1
+606,Sciences,High School,Excellent,Yes,Yes,8.9,86.4,2.94591239311733,5.1,0,5.0,2.7,20.9,9.207537184915237,88.3
+607,Business,Bachelor's,Excellent,No,No,8.1,100.0,2.7752867373005636,6.2,4,5.0,2.6,6.2,,100.0
+608,Business,Bachelor's,Good,Yes,No,13.8,83.6,2.4170225167532378,7.0,1,7.0,0.9,17.9,9.628466658421697,92.6
+609,Sciences,Bachelor's,Excellent,No,Yes,7.1,95.4,3.355576255278743,8.2,0,5.0,0.0,3.3,,93.4
+610,Engineering,High School,Average,No,Yes,2.8,82.2,1.8384441817689672,7.7,1,4.0,1.0,5.4,,75.1
+611,Sciences,Bachelor's,Average,No,Yes,9.3,100.0,3.3394041709244275,5.1,0,7.0,4.1,2.6,,95.8
+612,Sciences,Doctorate,Average,Yes,No,3.7,81.4,2.7042058702597704,6.3,0,7.0,1.9,8.0,14.731963667590108,74.7
+613,Sciences,Master's,Average,Yes,No,4.9,69.3,2.319882029427835,6.0,2,8.0,1.4,16.8,11.88094911025485,78.6
+614,Sciences,Doctorate,Good,Yes,No,9.7,86.0,2.916295516422254,5.9,1,5.0,0.8,7.7,13.027726443560288,89.2
+615,Sciences,Bachelor's,Good,Yes,Yes,3.7,99.6,3.494861015895755,5.9,1,9.0,2.1,17.5,18.82970660807358,91.4
+616,Business,High School,Average,No,Yes,4.8,90.3,2.524647629133554,7.8,2,3.0,1.7,11.1,,83.2
+617,Engineering,Bachelor's,Good,No,No,5.3,98.9,2.95327640869571,5.6,2,8.0,2.5,5.9,,88.1
+618,Engineering,Bachelor's,Poor,No,Yes,11.4,66.2,3.436006678171414,4.4,1,4.0,2.3,1.4,,94.2
+619,Business,High School,Good,No,Yes,15.5,59.2,2.4214497732482863,7.1,2,7.0,3.4,7.7,,81.7
+620,Sciences,High School,Poor,No,No,10.5,59.2,2.841407002135884,6.3,0,7.0,2.9,6.7,,82.8
+621,Humanities,Bachelor's,Poor,Yes,No,14.6,100.0,3.6190147504431134,6.7,2,5.0,4.7,20.3,19.592344428067605,100.0
+622,Humanities,Master's,Excellent,No,No,15.7,83.9,4.0,8.7,2,8.0,1.5,8.8,,100.0
+623,Business,Master's,Average,No,Yes,2.7,56.4,1.9388473547271228,7.7,1,7.0,0.9,11.3,,76.2
+624,Business,High School,Poor,No,Yes,4.8,88.9,2.7336606128450973,7.3,0,5.0,0.5,1.8,,74.6
+625,Engineering,Master's,Excellent,No,Yes,11.7,74.0,2.7619764155687068,6.7,1,7.0,2.6,12.6,,93.8
+626,Engineering,High School,Average,Yes,No,9.7,93.9,3.0480085442965485,7.1,2,7.0,3.4,1.8,6.527350227508837,87.0
+627,Engineering,Bachelor's,Poor,No,No,9.8,78.9,2.977814935516739,8.4,3,3.0,3.6,12.1,,76.8
+628,Humanities,Bachelor's,Good,No,No,3.5,96.2,2.197317921668309,6.7,2,5.0,0.2,3.0,,82.9
+629,Engineering,Bachelor's,Average,No,Yes,13.0,80.4,3.834656918558736,5.4,1,5.0,4.0,1.4,,100.0
+630,Business,Bachelor's,Good,Yes,No,7.1,89.9,2.914865509454825,9.4,0,7.0,2.6,10.0,15.4576747408593,78.1
+631,Engineering,Master's,Average,No,No,8.4,80.8,1.8439540147830529,5.8,0,9.0,0.9,9.4,,68.7
+632,Sciences,High School,Poor,Yes,No,3.4,66.1,2.142771853735873,5.2,1,3.0,3.3,7.0,12.532681412417471,78.8
+633,Business,Bachelor's,Poor,No,Yes,7.0,87.3,2.2738842753669446,8.4,2,4.0,0.9,14.7,,91.2
+634,Humanities,Bachelor's,Excellent,No,Yes,7.1,82.5,2.3001777027374932,4.5,2,3.0,3.4,17.1,,80.7
+635,Engineering,Bachelor's,Good,Yes,Yes,7.4,78.0,3.1429507257026086,8.4,1,7.0,5.3,20.4,20.621282469324324,58.7
+636,Business,Bachelor's,Excellent,No,Yes,17.2,71.7,3.2986245880027822,6.2,0,8.0,5.8,11.3,,86.9
+637,Engineering,Master's,Average,No,No,6.8,73.8,2.2431676607743847,5.5,2,6.0,3.0,12.8,,83.7
+638,Sciences,Bachelor's,Average,Yes,Yes,5.1,83.1,2.433415647484387,6.6,1,7.0,1.6,1.0,17.315567427189208,75.0
+639,Sciences,Master's,Average,No,No,5.3,87.9,3.3964775997715773,8.1,1,10.0,1.5,4.9,,93.8
+640,Sciences,Bachelor's,Poor,Yes,Yes,11.4,96.6,3.3708067725023647,6.3,1,5.0,1.1,22.1,11.042856919470065,100.0
+641,Engineering,Master's,Good,No,No,4.5,92.4,2.444288084246281,4.9,1,7.0,1.6,11.6,,82.5
+642,Sciences,Bachelor's,Poor,No,No,11.1,99.7,3.281420982833004,6.4,2,6.0,4.3,8.7,,92.3
+643,Humanities,Bachelor's,Good,No,Yes,6.5,58.7,3.556452027517719,7.3,1,6.0,0.6,3.8,,79.8
+644,Humanities,Bachelor's,Good,Yes,No,8.9,69.1,3.363673416121249,7.1,0,7.0,3.3,15.0,10.261329700047924,81.2
+645,Engineering,Master's,Average,Yes,No,6.5,76.1,3.0742600518410157,8.8,3,6.0,0.8,1.8,8.348410205778745,94.3
+646,Engineering,Bachelor's,Good,No,No,10.4,84.9,2.1859188723687275,6.8,5,6.0,0.6,9.2,,82.9
+647,Humanities,Master's,Poor,Yes,No,6.2,100.0,3.829755089523453,5.3,1,6.0,0.2,18.5,20.718193445339725,89.9
+648,Humanities,High School,Average,No,Yes,10.3,49.0,2.327168588178703,8.4,1,3.0,0.6,6.6,,75.3
+649,Humanities,High School,Average,Yes,No,1.7,74.6,3.693851953893884,6.6,3,6.0,0.6,7.9,2.0,100.0
+650,Humanities,Master's,Good,No,No,9.5,82.1,2.8493460148284604,7.9,0,6.0,0.0,10.7,,81.7
+651,Business,Bachelor's,Average,No,No,1.5,81.7,3.0232914121152255,6.4,1,7.0,0.8,15.7,,82.0
+652,Sciences,Master's,Good,Yes,No,3.6,65.0,3.153509909856584,5.9,4,6.0,1.4,8.9,11.751250109995327,87.7
+653,Humanities,Master's,Average,No,Yes,11.6,74.8,3.4232028832485533,7.7,3,7.0,2.3,2.7,,93.7
+654,Sciences,Bachelor's,Average,Yes,No,3.0,79.9,3.612989271403444,8.4,0,6.0,1.1,7.6,17.95883157606486,89.1
+655,Business,Bachelor's,Average,Yes,No,0.7,77.1,1.9691417510454605,7.7,0,3.0,0.4,4.0,13.609072150304128,66.6
+656,Business,High School,Good,No,No,4.5,89.0,1.4725966512677249,6.2,2,10.0,1.1,12.7,,74.7
+657,Sciences,Bachelor's,Average,Yes,Yes,19.0,99.4,,8.5,1,6.0,3.2,14.1,9.148043761882722,86.5
+658,Engineering,Master's,Average,No,No,13.9,80.1,,7.1,0,4.0,5.4,10.7,,97.3
+659,Humanities,Master's,Average,No,Yes,10.5,100.0,2.995762941217614,4.3,1,5.0,3.0,17.0,,91.5
+660,Business,Bachelor's,Good,No,Yes,3.9,95.4,2.2891078451023654,6.8,1,6.0,0.8,25.5,,84.6
+661,Humanities,Doctorate,Good,No,Yes,2.5,57.0,2.8277022754833734,9.5,0,7.0,0.7,15.4,,73.9
+662,Sciences,High School,Good,Yes,Yes,6.1,100.0,2.7985590601607155,5.4,0,9.0,1.3,12.0,19.242512782977407,83.0
+663,Sciences,High School,Good,No,Yes,7.3,73.6,3.031957902080945,7.7,3,4.0,1.3,4.7,,79.5
+664,Humanities,Bachelor's,Excellent,Yes,Yes,2.1,100.0,2.7095633730565676,7.4,3,6.0,0.0,2.8,18.380082618927954,69.7
+665,Engineering,High School,Good,Yes,Yes,9.7,100.0,3.1282860004594215,5.8,1,7.0,1.2,12.6,18.35107138251661,78.1
+666,Engineering,Bachelor's,Excellent,No,Yes,9.6,66.6,2.160284295385006,7.3,1,7.0,0.9,14.0,,75.1
+667,Engineering,Bachelor's,Poor,No,Yes,1.6,72.0,3.762295314232616,6.7,2,8.0,0.0,9.4,,100.0
+668,Business,High School,Good,Yes,No,1.6,79.6,2.3231829497812675,6.1,4,5.0,0.8,10.3,16.70010260028657,76.1
+669,Business,Master's,Good,No,Yes,15.1,93.2,,7.1,0,6.0,7.2,9.6,,100.0
+670,Engineering,High School,Average,No,Yes,2.5,87.4,3.362189208022825,5.8,3,8.0,0.0,8.7,,84.4
+671,Business,Bachelor's,Excellent,No,Yes,5.6,60.4,,7.3,1,5.0,2.7,6.4,,91.5
+672,Business,Bachelor's,Average,No,No,3.5,74.0,,7.2,1,1.0,1.6,6.9,,94.0
+673,Engineering,High School,Average,No,No,2.1,87.0,3.4319739288814084,7.9,2,2.0,1.2,26.3,,90.3
+674,Engineering,High School,Average,No,No,3.3,61.9,,9.0,0,7.0,0.0,16.6,,73.7
+675,Engineering,High School,Average,Yes,No,16.4,98.1,2.733672079900816,5.4,0,10.0,2.2,15.6,7.513440199614831,87.9
+676,Engineering,Bachelor's,Excellent,No,No,3.5,93.5,2.852466277792906,5.5,1,6.0,0.6,16.5,,90.1
+677,Sciences,High School,Good,No,No,14.4,83.0,2.581717927079354,7.8,3,6.0,1.4,6.6,,75.5
+678,Humanities,Master's,Excellent,No,Yes,3.9,70.6,2.9543966774546697,7.0,7,6.0,2.8,5.9,,90.7
+679,Sciences,Bachelor's,Good,No,Yes,6.4,66.5,3.4839387998696525,7.9,0,8.0,1.3,6.7,,82.2
+680,Engineering,Doctorate,Average,No,No,12.3,62.2,3.0540472492523767,6.7,0,5.0,2.0,3.8,,91.2
+681,Humanities,Master's,Excellent,No,No,2.5,87.8,3.241716372034433,7.9,2,8.0,0.0,4.5,,82.5
+682,Business,High School,Average,No,No,2.8,82.2,4.0,6.5,1,4.0,0.8,4.3,,88.3
+683,Humanities,High School,Average,Yes,No,5.0,100.0,3.679251627559389,5.7,0,2.0,0.0,8.4,13.410447227946726,90.0
+684,Sciences,Master's,Poor,No,Yes,7.3,94.4,2.3914983947602764,6.0,2,3.0,2.3,6.0,,93.2
+685,Business,High School,Excellent,Yes,Yes,14.7,95.8,2.9977993879761673,5.8,1,7.0,2.5,4.1,16.17780865715477,100.0
+686,Sciences,Master's,Average,Yes,No,8.1,73.6,2.2831815156021777,6.8,0,6.0,1.7,3.4,17.276457703866313,79.0
+687,Humanities,High School,Average,Yes,Yes,9.7,70.9,3.1324209708842305,7.7,2,6.0,1.4,17.7,10.240319614851604,80.4
+688,Engineering,Bachelor's,Average,No,No,7.1,92.3,1.8886581677845127,7.7,1,6.0,2.2,4.7,,37.5
+689,Engineering,Master's,Average,No,Yes,12.9,100.0,2.647124575822812,6.8,2,6.0,0.0,16.6,,91.1
+690,Sciences,Bachelor's,Excellent,No,No,5.0,58.1,3.0813491367577717,6.9,1,6.0,1.9,3.5,,83.2
+691,Sciences,Bachelor's,Average,Yes,No,11.1,68.3,2.8752353647714575,7.0,1,7.0,3.0,8.8,13.390498616469694,90.1
+692,Engineering,Bachelor's,Good,No,No,6.7,59.1,2.889315170176482,8.2,2,8.0,1.1,1.9,,78.2
+693,Sciences,Bachelor's,Excellent,No,Yes,17.5,73.8,3.317317707273991,8.4,0,1.0,4.4,21.7,,100.0
+694,Sciences,High School,Average,No,Yes,14.3,72.1,2.892090570776121,5.8,2,6.0,3.3,5.3,,85.0
+695,Engineering,High School,Average,Yes,No,8.9,52.7,3.0232668971801613,7.2,3,8.0,0.5,2.0,15.734621727155927,80.1
+696,Engineering,High School,Good,Yes,Yes,4.8,100.0,2.9741198808546367,6.0,1,2.0,1.8,9.9,19.088876877372428,93.0
+697,Humanities,Bachelor's,Good,Yes,No,4.3,53.9,2.6781627765310194,7.3,1,7.0,3.1,3.4,13.247674286621653,65.6
+698,Humanities,High School,Excellent,No,No,3.7,68.7,2.6606238392778954,6.3,3,5.0,1.5,6.9,,82.5
+699,Business,Bachelor's,Excellent,Yes,Yes,4.1,73.6,2.546016496069588,6.9,1,2.0,2.8,2.1,18.195259772658414,75.7
+700,Engineering,Bachelor's,Good,Yes,No,2.9,72.9,2.230847696486011,6.4,0,3.0,0.4,6.6,2.0,76.0
+701,Engineering,Bachelor's,Good,No,No,11.4,78.1,2.446168054151696,7.4,1,6.0,5.3,8.4,,75.7
+702,Business,Master's,Good,Yes,No,0.4,72.4,3.2797008397760865,5.0,3,2.0,0.0,9.9,19.485350289856143,89.5
+703,Sciences,Master's,Average,No,No,10.4,71.7,2.00158342203331,5.9,0,6.0,1.3,6.8,,73.5
+704,Humanities,High School,Good,Yes,No,1.6,69.5,2.9964368404877986,6.6,1,4.0,0.5,3.9,14.421550926291106,63.8
+705,Humanities,Bachelor's,Good,Yes,Yes,6.3,91.1,3.192928900571709,7.9,3,8.0,3.3,12.9,6.5167179107652835,92.1
+706,Engineering,High School,Excellent,Yes,No,3.0,72.9,3.1157080549466816,6.2,0,4.0,1.2,2.4,9.89077175420489,85.5
+707,Engineering,Doctorate,Good,No,No,21.0,61.5,,5.4,1,6.0,3.4,11.3,,85.9
+708,Engineering,High School,Good,No,Yes,5.9,45.9,3.5496313450670853,7.1,3,2.0,0.8,2.8,,90.0
+709,Engineering,Doctorate,Good,Yes,No,8.6,90.3,2.959825329708974,5.1,3,6.0,1.7,5.1,9.965623682925603,84.1
+710,Business,Master's,Poor,Yes,Yes,3.5,81.2,3.6636550749467744,5.9,1,4.0,0.9,7.0,19.200585092390014,91.0
+711,Business,High School,Average,Yes,No,14.4,68.6,2.546917116020502,6.1,3,5.0,3.0,10.4,20.780546068220694,76.3
+712,Humanities,Bachelor's,Good,No,Yes,10.7,84.5,2.152737903589784,6.8,1,3.0,5.6,13.5,,83.4
+713,Engineering,High School,Average,Yes,Yes,15.8,91.9,3.8206128517905205,7.6,3,3.0,4.1,9.6,21.05788469121655,95.7
+714,Engineering,Master's,Good,Yes,No,12.3,100.0,2.3458701177471104,8.3,2,5.0,3.7,12.0,15.820084362415088,87.2
+715,Business,Master's,Good,Yes,Yes,2.9,60.8,2.2804965270242734,8.8,4,5.0,0.9,18.5,15.075958055456695,67.0
+716,Sciences,Master's,Average,Yes,Yes,14.5,74.0,2.8953330213879824,5.9,0,6.0,3.0,1.2,11.480297035191525,100.0
+717,Humanities,Bachelor's,Average,No,Yes,6.8,75.1,2.258591703781877,6.4,1,4.0,1.2,6.2,,70.5
+718,Humanities,Bachelor's,Average,Yes,No,0.9,88.1,2.8323976846273515,4.8,1,7.0,0.0,6.4,3.790717043424644,70.1
+719,Humanities,Doctorate,Average,Yes,No,10.4,83.5,,6.0,4,4.0,3.9,21.1,7.720654142446622,91.7
+720,Engineering,Bachelor's,Excellent,Yes,Yes,7.2,95.3,3.0076520130156257,7.5,0,10.0,1.4,18.0,15.639593478185091,86.7
+721,Engineering,Bachelor's,Poor,No,No,4.2,70.4,2.9633910000796666,6.2,0,3.0,0.0,4.8,,79.9
+722,Engineering,Bachelor's,Average,Yes,Yes,3.1,54.8,3.0081334003560176,6.9,2,5.0,0.3,5.3,16.00524767544554,77.3
+723,Humanities,Master's,Average,No,Yes,11.1,76.9,3.9071576787002806,7.0,1,7.0,3.7,12.4,,60.5
+724,Engineering,High School,Average,Yes,Yes,14.9,91.7,,6.0,0,9.0,2.3,4.8,13.80390459332575,78.8
+725,Humanities,High School,Average,Yes,Yes,5.6,81.0,2.356561450753337,7.7,0,6.0,3.5,4.5,6.000349495818642,84.5
+726,Engineering,High School,Good,No,No,3.8,96.4,3.183510129083144,5.5,0,6.0,0.0,9.7,,81.8
+727,Engineering,Bachelor's,Average,Yes,No,8.4,100.0,3.113074391289546,6.8,0,5.0,4.2,6.8,24.936312372943696,91.9
+728,Business,High School,Good,Yes,No,7.6,97.4,2.609258764395557,6.4,1,5.0,0.0,9.3,13.06693588950611,79.7
+729,Sciences,High School,Excellent,Yes,Yes,11.0,89.1,1.7169704093136333,7.5,3,5.0,4.0,31.9,19.894266363920472,75.7
+730,Humanities,Bachelor's,Good,Yes,No,13.7,80.2,3.4512157074220977,8.1,3,6.0,4.1,14.7,12.23486616549921,89.7
+731,Engineering,Bachelor's,Average,Yes,Yes,7.9,91.6,1.8658606178294024,5.8,1,5.0,2.5,21.7,11.950505827019507,85.3
+732,Engineering,Bachelor's,Excellent,Yes,Yes,1.4,94.9,2.4178034937403443,6.4,1,10.0,0.4,10.1,19.144268670348477,82.5
+733,Business,Master's,Poor,No,No,4.8,85.1,3.137417377724473,7.1,2,7.0,2.2,11.4,,88.1
+734,Engineering,Bachelor's,Good,No,No,4.3,77.6,1.9610753520369277,5.6,1,5.0,1.3,2.9,,79.3
+735,Engineering,Bachelor's,Good,Yes,No,5.2,98.1,2.737806588606792,6.9,1,3.0,1.1,12.9,18.465682781197042,83.5
+736,Sciences,High School,Average,No,Yes,9.2,49.0,2.9550609017090097,5.5,3,7.0,3.2,3.7,,80.3
+737,Engineering,Bachelor's,Excellent,Yes,Yes,6.2,75.6,2.8896691251302675,6.3,1,6.0,1.6,13.0,15.687270981870377,80.3
+738,Humanities,Bachelor's,Good,No,Yes,10.2,79.6,3.3710009988617635,7.2,5,1.0,0.9,10.4,,100.0
+739,Business,High School,Average,Yes,No,13.3,71.5,3.3157855806372956,7.1,2,7.0,6.7,2.4,14.695420375199218,93.5
+740,Engineering,Bachelor's,Average,Yes,Yes,7.3,99.7,2.8384628725645555,6.5,3,6.0,1.0,6.7,12.565505147761954,95.8
+741,Sciences,Doctorate,Excellent,No,No,12.0,75.5,2.6319477213703255,6.9,0,6.0,3.8,15.4,,79.7
+742,Engineering,Master's,Average,No,Yes,3.2,73.3,3.14984869364402,6.2,1,6.0,0.0,4.2,,92.5
+743,Business,Bachelor's,Excellent,Yes,No,2.1,73.4,3.0815762180088284,5.2,1,5.0,0.0,15.4,8.024833897961301,94.5
+744,Sciences,Bachelor's,Average,Yes,Yes,8.7,87.8,3.2145524827102463,7.2,1,6.0,2.6,8.8,14.428429016397791,78.6
+745,Humanities,High School,Average,Yes,No,6.2,92.1,2.733877800604378,7.9,0,8.0,1.3,3.0,12.940742237961086,78.0
+746,Humanities,Master's,Good,No,No,3.8,93.7,1.8420498416962694,7.3,2,6.0,2.3,7.5,,69.7
+747,Sciences,High School,Excellent,No,Yes,18.0,95.3,3.0521069908388783,6.9,0,5.0,2.7,12.2,,100.0
+748,Sciences,Master's,Good,Yes,No,5.3,59.9,2.077242684671381,5.9,3,6.0,1.5,12.5,10.962794490361768,72.6
+749,Engineering,Bachelor's,Poor,No,No,7.7,65.9,2.8175529400838193,5.4,2,5.0,0.6,8.0,,85.4
+750,Humanities,Bachelor's,Average,No,No,2.7,86.2,2.636868567709056,8.1,0,8.0,1.1,7.6,,75.5
+751,Engineering,High School,Average,No,No,0.1,89.1,2.2712472752153428,4.4,2,2.0,0.0,4.9,,71.5
+752,Sciences,Bachelor's,Good,Yes,Yes,8.3,59.6,2.7039651002679954,7.0,1,3.0,3.4,9.3,13.664742646742566,83.4
+753,Sciences,Bachelor's,Average,No,No,3.0,100.0,,4.7,0,7.0,0.7,2.5,,79.1
+754,Business,Master's,Average,No,No,7.1,97.7,2.1146483654735246,7.3,2,6.0,3.0,21.6,,79.8
+755,Sciences,Bachelor's,Poor,No,Yes,0.8,82.5,2.667703297710539,8.4,0,8.0,0.0,11.7,,77.1
+756,Sciences,Master's,Average,Yes,No,3.8,61.2,2.1210068890839398,6.5,3,8.0,0.5,17.8,18.5772136982555,72.4
+757,Sciences,Doctorate,Average,No,Yes,21.5,75.0,3.187074786634223,5.8,3,8.0,5.5,10.9,,100.0
+758,Engineering,High School,Average,No,No,7.6,88.3,3.2149691846254886,7.4,2,7.0,1.4,11.5,,74.6
+759,Engineering,High School,Average,Yes,No,14.6,69.1,2.9608671260480413,6.0,2,7.0,5.0,11.8,10.888091744234778,47.2
+760,Sciences,Master's,Poor,No,Yes,7.1,64.5,,5.7,2,7.0,0.0,3.8,,80.3
+761,Business,High School,Average,Yes,Yes,3.4,100.0,2.9567537309338126,5.9,2,1.0,1.6,5.5,15.185284148730334,97.1
+762,Engineering,Bachelor's,Average,No,No,5.3,66.8,3.270601423755584,7.0,1,6.0,0.9,10.9,,81.5
+763,Sciences,Bachelor's,Average,Yes,No,5.0,53.9,3.885181163577278,8.4,0,4.0,0.4,10.6,21.62005428084455,97.3
+764,Engineering,High School,Poor,No,No,5.9,71.0,3.270074338727559,6.2,3,5.0,2.1,3.6,,91.6
+765,Sciences,High School,Average,No,No,2.7,65.6,2.8729866018961476,6.8,2,6.0,0.0,8.4,,72.0
+766,Humanities,High School,Good,Yes,Yes,6.6,100.0,3.0593247543044333,7.1,1,6.0,0.0,3.4,17.785266968903915,87.3
+767,Business,Bachelor's,Good,Yes,No,5.4,94.7,2.823391542479789,6.2,0,4.0,1.1,9.5,12.885405790289852,76.5
+768,Business,Master's,Good,No,Yes,11.2,79.2,3.0958763179602986,6.5,3,6.0,3.3,1.7,,98.7
+769,Engineering,High School,Average,Yes,Yes,16.9,95.8,,7.0,4,7.0,4.9,5.1,9.4432933204304,98.8
+770,Sciences,Bachelor's,Good,Yes,Yes,6.7,70.9,3.4177830109933574,6.7,1,8.0,3.0,2.1,30.83926584844282,83.5
+771,Humanities,Master's,Average,No,No,4.6,93.1,3.179176807541799,4.1,1,6.0,1.6,10.1,,84.0
+772,Humanities,Bachelor's,Average,No,Yes,3.7,98.1,3.372742721312802,7.2,5,6.0,0.0,4.6,,92.0
+773,Engineering,High School,Average,No,Yes,8.1,81.0,1.8335918493433732,6.5,2,3.0,0.0,12.4,,74.6
+774,Business,Master's,Average,No,Yes,2.8,91.1,2.8173582349403183,6.7,2,9.0,2.9,14.5,,84.1
+775,Engineering,Master's,Excellent,No,Yes,2.2,100.0,2.956489435630169,9.0,1,7.0,0.0,1.2,,86.0
+776,Humanities,Bachelor's,Excellent,No,No,3.5,88.1,2.0739533492085878,6.3,0,6.0,0.0,12.1,,80.5
+777,Engineering,High School,Good,Yes,No,6.6,69.8,2.9822324117652763,9.7,2,9.0,0.6,8.3,11.808070466761132,68.2
+778,Business,Bachelor's,Good,Yes,Yes,7.6,85.5,2.269752155031548,5.7,3,6.0,1.2,5.7,7.5049277267782415,85.4
+779,Humanities,Bachelor's,Average,No,Yes,13.9,69.7,1.8387399459935945,8.4,0,9.0,4.0,18.0,,82.3
+780,Business,High School,Good,Yes,No,3.7,87.6,2.947174528038543,6.5,1,6.0,0.6,4.7,12.457584493269707,83.5
+781,Business,Bachelor's,Good,Yes,Yes,8.0,73.2,1.8415018216205248,7.1,2,9.0,0.9,2.2,16.473250374332007,18.7
+782,Business,Master's,Excellent,No,Yes,4.3,78.7,2.5655498067951927,7.0,1,8.0,1.3,14.0,,78.8
+783,Sciences,Master's,Average,Yes,Yes,9.3,94.8,2.325468681592808,5.0,1,6.0,0.1,10.1,10.227989763193573,72.2
+784,Sciences,Bachelor's,Good,No,Yes,8.0,99.4,3.340278469717936,7.7,3,5.0,3.5,1.4,,100.0
+785,Sciences,High School,Poor,No,Yes,7.4,82.2,2.9315500747487504,5.6,0,5.0,2.0,2.9,,73.8
+786,Humanities,High School,Poor,No,No,11.8,60.3,3.1176087642058583,6.3,1,9.0,3.2,8.8,,94.1
+787,Sciences,Bachelor's,Poor,No,No,21.4,78.2,2.6175264533717932,7.8,2,4.0,5.4,6.7,,96.7
+788,Engineering,Master's,Good,No,No,7.9,80.7,2.371984024382416,6.2,0,6.0,0.8,21.0,,87.5
+789,Business,Bachelor's,Good,Yes,No,11.2,68.8,3.7983392182567552,8.5,0,9.0,3.1,7.2,14.906208122169836,99.6
+790,Humanities,Bachelor's,Average,No,No,8.0,79.9,3.64691847261128,7.4,3,8.0,1.5,3.6,,86.5
+791,Sciences,Bachelor's,Poor,Yes,No,2.6,71.5,1.8934168428655063,5.0,1,5.0,1.2,18.2,14.325683275230562,65.6
+792,Humanities,Bachelor's,Good,Yes,Yes,3.5,87.4,3.304206088268792,4.4,1,9.0,1.2,9.1,12.75831458010974,100.0
+793,Engineering,Master's,Average,No,Yes,1.4,93.1,2.7594378007220115,7.4,0,2.0,3.1,11.9,,64.5
+794,Engineering,High School,Excellent,No,No,4.1,76.4,2.9067885752290734,6.8,0,6.0,2.3,32.8,,82.3
+795,Sciences,Bachelor's,Excellent,No,Yes,8.6,71.3,3.076771602643888,7.0,2,1.0,2.5,14.3,,94.3
+796,Sciences,Bachelor's,Good,Yes,No,3.9,59.3,2.53633205526528,5.2,0,7.0,2.6,3.8,15.834107959923415,71.7
+797,Sciences,High School,Average,No,No,10.7,67.7,1.9215880850375187,8.1,0,10.0,0.0,0.9,,71.3
+798,Engineering,Bachelor's,Good,No,Yes,8.0,88.2,3.1213816157665124,7.1,1,6.0,4.0,6.3,,93.1
+799,Engineering,Bachelor's,Good,Yes,No,1.9,86.3,3.1096985354957543,7.6,3,5.0,1.3,3.6,14.02070310904514,85.8
+800,Sciences,Master's,Good,Yes,No,10.4,76.9,,5.1,2,3.0,2.3,7.2,19.080848102614315,77.9
+801,Sciences,High School,Good,Yes,No,3.6,95.1,2.955296072540981,7.4,4,3.0,0.0,4.9,19.258213954253126,67.8
+802,Humanities,High School,Average,Yes,Yes,8.6,100.0,3.4669830012966982,4.4,5,6.0,1.6,5.6,18.512626727962775,98.1
+803,Engineering,High School,Excellent,Yes,No,5.9,100.0,3.718410948146265,6.7,2,5.0,2.2,16.6,11.992337162163576,91.3
+804,Business,Master's,Good,Yes,No,10.3,61.5,3.326785303209953,5.8,1,5.0,1.8,3.4,10.710191393123257,91.1
+805,Engineering,High School,Average,No,No,1.8,72.5,2.5732620801051733,5.1,0,5.0,0.2,3.6,,68.2
+806,Engineering,Bachelor's,Poor,No,No,2.6,78.5,,4.0,1,7.0,0.0,16.0,,68.4
+807,Business,Bachelor's,Good,Yes,Yes,11.7,77.4,3.229145062775628,6.9,1,4.0,5.4,5.1,8.592465591551775,91.5
+808,Business,Bachelor's,Good,Yes,No,3.5,79.7,2.870006994885104,4.9,1,5.0,0.4,7.9,12.996966291603997,85.7
+809,Engineering,High School,Average,Yes,Yes,2.1,88.7,3.7065590504253345,5.9,1,5.0,0.0,19.8,9.906896650387687,90.8
+810,Humanities,High School,Excellent,Yes,No,5.6,95.8,3.054459362913301,6.6,2,8.0,0.0,6.7,5.792420965556884,83.7
+811,Sciences,Bachelor's,Average,No,Yes,18.4,79.5,3.098584187598198,6.9,3,5.0,1.0,4.2,,99.2
+812,Sciences,Doctorate,Good,No,No,5.7,84.9,3.129637829739974,4.2,1,7.0,0.4,13.2,,87.7
+813,Humanities,Bachelor's,Good,No,No,16.3,100.0,3.0285010029102177,10.0,3,6.0,4.8,6.5,,94.3
+814,Engineering,Bachelor's,Average,No,Yes,5.6,96.2,2.7078213971155964,5.0,0,8.0,2.1,8.3,,74.7
+815,Sciences,Doctorate,Poor,No,Yes,4.7,83.5,2.985365680398389,6.9,0,4.0,0.4,2.3,,87.7
+816,Engineering,High School,Good,Yes,No,4.0,53.1,2.5736429145162,8.1,1,9.0,0.5,5.1,9.675572951587194,69.5
+817,Business,High School,Good,No,Yes,10.2,81.5,3.087375035110588,8.3,0,6.0,2.0,4.7,,94.9
+818,Sciences,High School,Poor,No,Yes,24.2,100.0,3.5187688654209337,7.3,1,7.0,8.5,10.6,,100.0
+819,Sciences,Master's,Average,No,Yes,22.3,56.3,3.075648066701672,9.2,0,4.0,8.7,2.4,,100.0
+820,Humanities,High School,Excellent,No,Yes,12.8,79.8,3.094770043283943,6.3,3,3.0,2.1,3.6,,100.0
+821,Humanities,Bachelor's,Good,No,Yes,6.9,85.0,3.834359338618903,7.6,0,5.0,0.0,11.3,,89.3
+822,Humanities,Master's,Poor,No,Yes,3.4,87.7,2.0232254561456204,7.2,2,2.0,1.1,11.9,,73.8
+823,Business,High School,Average,Yes,Yes,3.8,60.6,2.3073190663131427,4.9,1,5.0,2.1,8.5,11.430875003743516,69.4
+824,Sciences,Doctorate,Good,Yes,No,0.8,76.9,2.579924766973039,6.9,2,6.0,0.0,9.4,13.135291097494893,71.0
+825,Business,Doctorate,Average,No,No,16.8,77.9,3.613464128234449,7.3,2,6.0,5.0,6.8,,88.2
+826,Sciences,Bachelor's,Excellent,No,Yes,1.6,80.9,3.738427096498811,3.5,2,7.0,1.6,9.3,,77.6
+827,Engineering,High School,Average,Yes,Yes,0.3,90.5,2.351821116135343,6.6,1,4.0,0.5,9.5,22.615094862599015,59.1
+828,Business,High School,Average,No,No,5.1,90.0,2.2287588782751904,5.9,3,4.0,1.0,8.0,,82.3
+829,Business,Bachelor's,Good,Yes,Yes,14.0,99.0,2.423832012639753,6.2,1,9.0,5.9,10.3,19.424834561655807,94.3
+830,Engineering,Bachelor's,Good,No,No,7.2,80.8,2.839700327006322,6.1,0,6.0,2.0,7.4,,87.4
+831,Humanities,Master's,Good,No,No,6.5,69.9,2.234515307769236,8.0,1,3.0,1.5,8.4,,78.6
+832,Business,High School,Good,Yes,No,3.4,63.2,2.798835478767213,6.9,2,6.0,2.1,6.5,19.627743057316405,78.9
+833,Engineering,Master's,Average,No,Yes,5.6,80.1,3.140624406689335,8.1,3,5.0,1.3,5.9,,93.8
+834,Humanities,Bachelor's,Good,No,Yes,8.6,78.6,2.4291599405783915,5.5,3,9.0,2.8,14.2,,86.7
+835,Humanities,High School,Excellent,No,No,2.2,93.5,2.7883006707701017,7.7,0,7.0,0.6,9.3,,95.6
+836,Humanities,Bachelor's,Good,Yes,No,8.4,78.7,3.5001198552035304,6.8,1,6.0,1.9,10.5,12.190128180958663,91.6
+837,Sciences,Bachelor's,Average,No,Yes,7.4,85.9,2.7921025889844513,6.6,1,6.0,0.1,6.2,,87.9
+838,Humanities,Master's,Excellent,No,No,5.0,64.9,3.0163372427868316,8.1,2,4.0,0.4,12.2,,84.0
+839,Engineering,High School,Good,Yes,Yes,5.9,80.9,3.2087464622383237,6.3,3,7.0,1.3,9.9,5.4981845318533225,81.2
+840,Engineering,Bachelor's,Average,Yes,No,6.2,77.9,2.541205516070481,7.5,1,6.0,2.9,12.2,17.72143202194402,86.3
+841,Engineering,Bachelor's,Good,No,Yes,6.0,68.9,3.0501453930893776,5.4,1,7.0,2.0,20.6,,78.9
+842,Business,Bachelor's,Excellent,Yes,Yes,17.7,71.7,3.5171080560442984,9.4,1,8.0,0.2,7.1,21.830757208870388,99.8
+843,Sciences,Bachelor's,Excellent,Yes,No,8.3,90.9,2.833692774264817,6.5,1,10.0,1.8,13.1,17.63724889018174,80.8
+844,Sciences,Bachelor's,Good,Yes,No,10.5,84.0,3.3833380545035574,7.5,3,5.0,3.8,9.6,17.772464485290133,100.0
+845,Sciences,High School,Poor,No,No,9.3,96.8,2.623638532837493,5.3,0,7.0,1.7,12.6,,76.0
+846,Business,High School,Good,No,No,8.5,68.9,3.0956467970323494,7.5,1,6.0,0.0,20.8,,77.9
+847,Engineering,Bachelor's,Poor,Yes,No,5.9,96.3,3.1817853453193568,5.7,3,3.0,0.5,2.5,21.310968191460898,86.2
+848,Sciences,Bachelor's,Good,No,No,5.7,100.0,2.634008977758316,8.4,2,7.0,1.6,1.1,,93.0
+849,Engineering,Bachelor's,Poor,No,No,3.4,73.9,3.3134830308066214,7.3,0,5.0,2.1,4.0,,96.2
+850,Engineering,Bachelor's,Good,Yes,No,4.5,76.1,2.489336163979926,4.6,1,7.0,2.0,18.5,16.18054755971871,71.0
