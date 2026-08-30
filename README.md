@@ -13,108 +13,62 @@
 
 <p align="left">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" width="40"/>
 </p>
 
 ## Project Structure
 
 ```text
 .
-├── 0_a_helloKenya.py
-├── 0_b_helloKenya.ipynb
-├── 1a_decision_tree.ipynb
-├── 1b_decision_tree.ipynb
-├── 2_naive_bayes.ipynb
-├── 3_knn.ipynb
-├── 4_svm.ipynb
-├── 5_random_forest.ipynb
+├── 0_admin_instructions
+│   ├── 0_instructions_for_project_setup.md
+│   ├── 1_instructions_for_python_installation.md
+│   └── 2_instructions_for_project_teardown.md
+├── 1_regression.ipynb
+├── 2_classification.ipynb
 ├── LICENSE
-├── README.md
+├── README.md                           ← You are reading this file now.
 ├── RecommendedCitation.bib
-├── api.py
-├── api_consumer.py
 ├── assets
 │   └── images
-│       ├── activate_venv_pycharm.png
-│       └── activate_venv_vscode.png
+│       └── BoxPlot.jpg
 ├── data
-│   ├── DataCoSupplyChainDataset.csv
-│   ├── DataCoSupplyChainDataset_description.csv
-│   ├── DataCoSupplyChainDataset_new_data.csv
-│   ├── DataCoSupplyChainDataset_predicted_data.csv
-│   ├── DataCoSupplyChainDataset_predicted_with_prob.csv
-│   ├── SuperStoreSales.csv
-│   ├── SuperStoreSales.xlsx
-│   ├── SuperStoreSales_new_data.csv
-│   ├── SuperStoreSales_predicted.csv
-│   ├── customer_data_with_clusters.csv
-│   ├── online_shoppers_intention.csv
-│   ├── online_shoppers_intention_new_data.csv
-│   ├── online_shoppers_intention_predicted_data.csv
-│   ├── online_shoppers_intention_predicted_data_rf.csv
-│   ├── online_shoppers_intention_predicted_data_svc.csv
-│   ├── paper2_dataset.csv
-│   ├── siwaka_dishes_orderstatus.csv
-│   ├── siwaka_dishes_view_profit_per_product.csv
-│   ├── siwaka_dishes_view_profit_per_product_new_data.csv
-│   ├── siwaka_dishes_view_profit_per_product_predicted_data.csv
-│   ├── subscription_churn.csv
-│   ├── subscription_churn_new_data.csv
-│   └── subscription_churn_predicted_data.csv
-├── data_transformer
-│   └── yeo_johnson_transformer.pkl
-├── frontend_tests
-│   ├── api_test_DT_classifier.html
-│   └── api_test_DT_regressor.html
-├── lab_submission
-│   └── CAT2_P2_StudentID_Name.ipynb
-├── main.py
-├── model
-│   ├── decisiontree_classifier_baseline.pkl
-│   ├── decisiontree_regressor_optimum.pkl
-│   ├── knn_classifier_optimum.pkl
-│   ├── label_encoders_1b.pkl
-│   ├── label_encoders_2.pkl
-│   ├── label_encoders_4.pkl
-│   ├── label_encoders_5.pkl
-│   ├── naive_Bayes_classifier_optimum.pkl
-│   ├── onehot_encoder_3.pkl
-│   ├── random_forest_classifier_optimum.pkl
-│   ├── scaler_3.pkl
-│   ├── scaler_4.pkl
-│   ├── scaler_5.pkl
-│   └── support_vector_classifier_optimum.pkl
-├── requirements
-│   ├── base.txt
-│   ├── colab.txt
-│   ├── constraints.txt
-│   ├── dev.inferred.txt
-│   ├── dev.lock.txt
-│   ├── dev.txt
-│   └── prod.txt
-└── setup_instructions.md
+│   ├── farm_annual_income.csv
+│   ├── marketing_campaign_roi.csv
+│   ├── real_estate_rental_price.csv
+│   ├── retail_daily_sales.csv
+│   ├── sme_credit_risk_kenya.csv
+│   ├── sme_revenue_kenya.csv
+│   └── student_exam_score.csv
+├── lab_assignment.md
+├── lab_assignment_grading_rubric.md
+└── requirements
+    ├── base.txt
+    ├── colab.txt
+    ├── constraints.txt
+    ├── dev.inferred.txt
+    ├── dev.lock.txt
+    ├── dev.txt
+    └── prod.txt
 
-9 directories, 65 files
+6 directories, 25 files
 ```
 
 ## Setup Instructions
 
-- [Setup Instructions](setup_instructions.md)
+- [Setup Instructions](./0_admin_instructions/0_instructions_for_project_setup.md)
 
 ## Lab Manuals
 
 Refer to the files in the order specified below for more details:
 
-- [0_a_helloKenya.py](0_a_helloKenya.py) and
-[0_b_helloKenya.ipynb](0_b_helloKenya.ipynb): to confirm that the required
-libraries to run a Jupyter notebook locally have been installed in your Python
-virtual environment
-- [1a_decision_tree.ipynb](1a_decision_tree.ipynb): How to train a decision tree classifier
-- [1b_decision_tree.ipynb](1b_decision_tree.ipynb): How to train a decision tree regressor
-- [2_naive_bayes.ipynb](2_naive_bayes.ipynb) : How to train a Naïve Bayes classifier
-- [3_knn.ipynb](3_knn.ipynb): How to train a k‑Nearest Neighbors (kNN) classifier
-- [4_svm.ipynb](4_svm.ipynb): How to train a Support Vector Machine (SVM) classifier
-- [5_random_forest.ipynb](5_random_forest.ipynb): How to train a random forest classifier
+- [Regression Notebook](1_regression.ipynb)
+- [Classification Notebook](2_classification.ipynb)
 
 ## Lab Submission Instructions
 
-- [Lab Submission Instructions](lab_submission_instructions.md)
+- [Lab Submission Instructions](./lab_assignment.md)
+
+## Teardown Instructions
+
+- [Teardown Instructions](./0_admin_instructions/2_instructions_for_project_teardown.md)
