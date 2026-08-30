@@ -19,7 +19,7 @@ that may reduce deep learning and understanding of the material.
 
 **Final individual grade** = `([0.55 × Group Notebook Score] + [0.45 × Individual Accountability Score]) × Peer Contribution Multiplier`
 
-**Grading levels (we will use the Kenyan CBC Grading System 🙂)**:
+**Grading levels (we will use the Kenyan CBC Grading Levels 🙂)**:
 
 | Level                             | Description               | Meaning                                                                                      |
 |-----------------------------------|---------------------------|----------------------------------------------------------------------------------------------|

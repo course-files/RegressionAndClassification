@@ -24,7 +24,7 @@ stage needs to earn full marks.
 
 ## Assigned Datasets for Classification
 
-*Coming soon... do not let the work pile up*
+*Coming soon... Tip: do not let the work pile up.*
 
 **Beyond the notebook**, every group member should individually complete:
 - A 2-3-minute one-on-one conversation (defense) where you will be asked
