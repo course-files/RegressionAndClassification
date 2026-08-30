@@ -8,7 +8,7 @@ as well as contributing to the work itself.
 This rubric has three parts, scored separately and combined at the end. This
 is intended to distinguish between each member's contribution and understanding
 of the work, while still rewarding the group for producing a polished, complete
-notebook. It is also meant to discourage over-reliance on AI generated solutions
+notebook. It is also meant to discourage over-reliance on AI-generated solutions
 that may reduce deep learning and understanding of the material.
 
 | Part                            | What it measures                                            | Who is scored              | Weight in final grade                                   |
@@ -21,12 +21,12 @@ that may reduce deep learning and understanding of the material.
 
 **Grading levels (we will use the Kenyan CBC Grading System 🙂)**:
 
-| Level                             | Description               | Meaning                                                                                       |
-|-----------------------------------|---------------------------|-----------------------------------------------------------------------------------------------|
-| **Exceeding Expectations (EE)**   | Above average performance | You consistently demonstrate exceptional understanding                                        |
-| **Meeting Expectations (ME)**     | Expected performance      | You demonstrate adequate understanding                                                        |
-| **Approaching Expectations (AE)** | Below expected level      | You are making progress but you need to make use of the lecturer's office hourse for support. |
-| **Below Expectations (BE)**       | Significantly below       | You require significant intervention, otherwise you will fail the course.                     |
+| Level                             | Description               | Meaning                                                                                      |
+|-----------------------------------|---------------------------|----------------------------------------------------------------------------------------------|
+| **Exceeding Expectations (EE)**   | Above average performance | You consistently demonstrate exceptional understanding                                       |
+| **Meeting Expectations (ME)**     | Expected performance      | You demonstrate adequate understanding                                                       |
+| **Approaching Expectations (AE)** | Below expected level      | You are making progress but you need to make use of the lecturer's office hours for support. |
+| **Below Expectations (BE)**       | Significantly below       | You require significant intervention, otherwise you will fail the course.                    |
 
 ---
 
