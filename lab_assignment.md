@@ -14,13 +14,13 @@ stage needs to earn full marks.
 
 ## Assigned Datasets
 
-| Dataset                        | Group | Context                                                           | Target to Predict                    |
-|--------------------------------|-------|-------------------------------------------------------------------|--------------------------------------|
-| `real_estate_rental_price.csv` | x     | Monthly rental listings across Nairobi-area neighborhoods         | `monthly_rent_kes`                   |
-| `retail_daily_sales.csv`       | x     | Daily performance of retail stores of varying format and location | `daily_sales_revenue_kes`            |
-| `marketing_campaign_roi.csv`   | x     | Digital ad campaigns across platforms and objectives              | `campaign_roi_pct` (can be negative) |
-| `farm_annual_income.csv`       | D     | Smallholder and commercial farm operations across counties        | `annual_farm_income_kes`             |
-| `student_exam_score.csv`       | D     | Student study habits, background, and support factors             | `final_exam_score` (bounded 0–100)   |
+| Dataset                                                               | Group                     | Context                                                           | Target to Predict                    |
+|-----------------------------------------------------------------------|---------------------------|-------------------------------------------------------------------|--------------------------------------|
+| [`real_estate_rental_price.csv`](./data/real_estate_rental_price.csv) | A                         | Monthly rental listings across Nairobi-area neighborhoods         | `monthly_rent_kes`                   |
+| [`retail_daily_sales.csv`](./data/retail_daily_sales.csv)             | C                         | Daily performance of retail stores of varying format and location | `daily_sales_revenue_kes`            |
+| [`marketing_campaign_roi.csv`](./data/marketing_campaign_roi.csv)     | Not assigned to any group | Digital ad campaigns across platforms and objectives              | `campaign_roi_pct` (can be negative) |
+| [`farm_annual_income.csv`](./data/farm_annual_income.csv)             | D                         | Smallholder and commercial farm operations across counties        | `annual_farm_income_kes`             |
+| [`student_exam_score.csv`](./data/student_exam_score.csv)             | B                         | Student study habits, background, and support factors             | `final_exam_score` (bounded 0–100)   |
 
 **Beyond the notebook**, every group member should individually complete:
 - A 2-3-minute one-on-one conversation (defense) where you will be asked
