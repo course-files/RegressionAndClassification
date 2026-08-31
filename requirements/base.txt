@@ -10,3 +10,4 @@ statsmodels
 shap
 imblearn
 lime
+pyswarms
