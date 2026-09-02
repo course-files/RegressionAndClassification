@@ -9,6 +9,7 @@ scipy
 statsmodels
 shap
 imblearn
+imbalanced-learn
 lime
 pyswarms
 optuna
